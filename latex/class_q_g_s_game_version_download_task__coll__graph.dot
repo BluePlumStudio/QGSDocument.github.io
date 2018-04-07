@@ -1,0 +1,17 @@
+digraph "QGSGameVersionDownloadTask"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node3 [label="QGSGameVersionDownloadTask",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="QGSDownloadTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_download_task.html"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="QGSTask",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_task.html"];
+  Node5 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mNextTask" ];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mNetworkAccessManagerPtr" ];
+  Node6 [label="QGSNetworkAccessManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_network_access_manager.html"];
+  Node7 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mDownloadInfo" ];
+  Node7 [label="QGSDownloadInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_download_info.html"];
+  Node8 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="QGSDownloadBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_download_base.html"];
+}

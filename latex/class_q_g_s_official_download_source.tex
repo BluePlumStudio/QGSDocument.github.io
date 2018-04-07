@@ -1,0 +1,233 @@
+\hypertarget{class_q_g_s_official_download_source}{}\section{Q\+G\+S\+Official\+Download\+Source类 参考}
+\label{class_q_g_s_official_download_source}\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+
+
+{\ttfamily \#include $<$Q\+G\+S\+Official\+Download\+Source.\+h$>$}
+
+
+
+类 Q\+G\+S\+Official\+Download\+Source 继承关系图\+:
+% FIG 0
+
+
+Q\+G\+S\+Official\+Download\+Source 的协作图\+:
+% FIG 1
+\subsection*{Public 成员函数}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_q_g_s_official_download_source_ad3a2fb81f27a0f73ed136e13cb357a0a}{Q\+G\+S\+Official\+Download\+Source}} (Q\+Object $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{class_q_g_s_official_download_source_a91f4ed7fe2cb3ced6a88202e264ef931}{Q\+G\+S\+Official\+Download\+Source}} (const \mbox{\hyperlink{class_q_g_s_official_download_source}{Q\+G\+S\+Official\+Download\+Source}} \&right)=delete
+\item 
+\mbox{\hyperlink{class_q_g_s_official_download_source_a874c4e3e11b63ff84d9832dc054be1cd}{Q\+G\+S\+Official\+Download\+Source}} (\mbox{\hyperlink{class_q_g_s_official_download_source}{Q\+G\+S\+Official\+Download\+Source}} \&\&right)=delete
+\item 
+\mbox{\hyperlink{class_q_g_s_official_download_source}{Q\+G\+S\+Official\+Download\+Source}} \& \mbox{\hyperlink{class_q_g_s_official_download_source_a4c5c518cc098a9d14a21312b5f5b6c5a}{operator=}} (const \mbox{\hyperlink{class_q_g_s_official_download_source}{Q\+G\+S\+Official\+Download\+Source}} \&right)=delete
+\item 
+\mbox{\hyperlink{class_q_g_s_official_download_source}{Q\+G\+S\+Official\+Download\+Source}} \& \mbox{\hyperlink{class_q_g_s_official_download_source_a03ede2c62cf5202cf55c5a4cbd07cd31}{operator=}} (\mbox{\hyperlink{class_q_g_s_official_download_source}{Q\+G\+S\+Official\+Download\+Source}} \&\&right)=delete
+\item 
+virtual \mbox{\hyperlink{class_q_g_s_official_download_source_a3e3275a3fbbbe13ccea96e3bffba950d}{$\sim$\+Q\+G\+S\+Official\+Download\+Source}} ()
+\item 
+virtual Q\+Url \mbox{\hyperlink{class_q_g_s_official_download_source_a8a644e91bf18f28328b9b432620cca00}{generate\+Game\+Version\+Info\+Json\+Url}} () override
+\item 
+virtual Q\+Url \mbox{\hyperlink{class_q_g_s_official_download_source_a752fd52c76112d3d76551a00b399220f}{generate\+Forge\+Version\+Info\+Json\+Url}} (int offset=1, int limit=0) override
+\item 
+virtual Q\+Url \mbox{\hyperlink{class_q_g_s_official_download_source_aab46bc9decd9cb2e2fe9e9d403d36575}{generate\+Lite\+Loader\+Version\+Info\+Json\+Url}} () override
+\item 
+virtual Q\+Url \mbox{\hyperlink{class_q_g_s_official_download_source_a32b22d324a98de1863d1da57066f4ac1}{generate\+Optifine\+Version\+Info\+Json\+Url}} () override
+\item 
+virtual Q\+Url \mbox{\hyperlink{class_q_g_s_official_download_source_a83a502b4513eb1286bc97a863ddf980c}{generate\+Logging\+Url}} (const \mbox{\hyperlink{class_q_g_s_logging}{Q\+G\+S\+Logging}} \&logging) override
+\item 
+virtual Q\+Url \mbox{\hyperlink{class_q_g_s_official_download_source_a591dd8ed6bbfab644b815c75f7d0710c}{generate\+Game\+Version\+Json\+Url}} (const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&version\+Info) override
+\item 
+virtual Q\+Url \mbox{\hyperlink{class_q_g_s_official_download_source_a07d41c6aed39acc0cdc071b374ce04bc}{generate\+Library\+Url}} (const \mbox{\hyperlink{class_q_g_s_library}{Q\+G\+S\+Library}} \&library) override
+\item 
+virtual Q\+Url \mbox{\hyperlink{class_q_g_s_official_download_source_acb74743d3cdc6c2211e56aa0e5b16b93}{generate\+Game\+Version\+Url}} (const \mbox{\hyperlink{class_q_g_s_game_version}{Q\+G\+S\+Game\+Version}} \&version, const Q\+String \&category) override
+\item 
+virtual Q\+Url \mbox{\hyperlink{class_q_g_s_official_download_source_a67b08e7a797211563db49c3357631c46}{generate\+Asset\+Index\+Json\+Url}} (const \mbox{\hyperlink{class_q_g_s_asset_index}{Q\+G\+S\+Asset\+Index}} \&asset\+Index) override
+\item 
+virtual Q\+Url \mbox{\hyperlink{class_q_g_s_official_download_source_a06f16b9134010980f1403caecc22a9af}{generate\+Asset\+Object\+Url}} (const \mbox{\hyperlink{class_q_g_s_asset_object}{Q\+G\+S\+Asset\+Object}} \&asset\+Object) override
+\item 
+virtual Q\+Url \mbox{\hyperlink{class_q_g_s_official_download_source_a212e5a145ed60ce8868069d2e09a4d59}{generate\+Forge\+Url}} (const Q\+String \&mcversion, const Q\+String \&version, const Q\+String \&category, const Q\+String \&format, const Q\+String \&branch=\char`\"{}\char`\"{}) override
+\item 
+virtual Q\+Url \mbox{\hyperlink{class_q_g_s_official_download_source_a78f454b773647b61aa748f5be9b10ba1}{generate\+Lite\+Loader\+Url}} (Q\+String mcversion, Q\+String version, const Q\+String \&category) override
+\item 
+virtual Q\+Url \mbox{\hyperlink{class_q_g_s_official_download_source_a0bcd5b86c818cdd76195e16ccddb23da}{generate\+Optifine\+Url}} (const Q\+String \&mcversion, const Q\+String \&type, const Q\+String \&patch) override
+\end{DoxyCompactItemize}
+
+
+\subsection{构造及析构函数说明}
+\mbox{\Hypertarget{class_q_g_s_official_download_source_ad3a2fb81f27a0f73ed136e13cb357a0a}\label{class_q_g_s_official_download_source_ad3a2fb81f27a0f73ed136e13cb357a0a}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{Q\+G\+S\+Official\+Download\+Source()}{QGSOfficialDownloadSource()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Q\+G\+S\+Official\+Download\+Source\+::\+Q\+G\+S\+Official\+Download\+Source (\begin{DoxyParamCaption}\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a91f4ed7fe2cb3ced6a88202e264ef931}\label{class_q_g_s_official_download_source_a91f4ed7fe2cb3ced6a88202e264ef931}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{Q\+G\+S\+Official\+Download\+Source()}{QGSOfficialDownloadSource()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Q\+G\+S\+Official\+Download\+Source\+::\+Q\+G\+S\+Official\+Download\+Source (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_official_download_source}{Q\+G\+S\+Official\+Download\+Source}} \&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a874c4e3e11b63ff84d9832dc054be1cd}\label{class_q_g_s_official_download_source_a874c4e3e11b63ff84d9832dc054be1cd}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{Q\+G\+S\+Official\+Download\+Source()}{QGSOfficialDownloadSource()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Q\+G\+S\+Official\+Download\+Source\+::\+Q\+G\+S\+Official\+Download\+Source (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_g_s_official_download_source}{Q\+G\+S\+Official\+Download\+Source}} \&\&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a3e3275a3fbbbe13ccea96e3bffba950d}\label{class_q_g_s_official_download_source_a3e3275a3fbbbe13ccea96e3bffba950d}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!````~Q\+G\+S\+Official\+Download\+Source@{$\sim$\+Q\+G\+S\+Official\+Download\+Source}}
+\index{````~Q\+G\+S\+Official\+Download\+Source@{$\sim$\+Q\+G\+S\+Official\+Download\+Source}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{$\sim$\+Q\+G\+S\+Official\+Download\+Source()}{~QGSOfficialDownloadSource()}}
+{\footnotesize\ttfamily Q\+G\+S\+Official\+Download\+Source\+::$\sim$\+Q\+G\+S\+Official\+Download\+Source (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\subsection{成员函数说明}
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a67b08e7a797211563db49c3357631c46}\label{class_q_g_s_official_download_source_a67b08e7a797211563db49c3357631c46}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!generate\+Asset\+Index\+Json\+Url@{generate\+Asset\+Index\+Json\+Url}}
+\index{generate\+Asset\+Index\+Json\+Url@{generate\+Asset\+Index\+Json\+Url}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{generate\+Asset\+Index\+Json\+Url()}{generateAssetIndexJsonUrl()}}
+{\footnotesize\ttfamily Q\+Url Q\+G\+S\+Official\+Download\+Source\+::generate\+Asset\+Index\+Json\+Url (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_asset_index}{Q\+G\+S\+Asset\+Index}} \&}]{asset\+Index }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+实现了 \mbox{\hyperlink{class_q_g_s_i_download_source_a12254719fa1c75880cc5bcd9c04d052a}{Q\+G\+S\+I\+Download\+Source}}.
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a06f16b9134010980f1403caecc22a9af}\label{class_q_g_s_official_download_source_a06f16b9134010980f1403caecc22a9af}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!generate\+Asset\+Object\+Url@{generate\+Asset\+Object\+Url}}
+\index{generate\+Asset\+Object\+Url@{generate\+Asset\+Object\+Url}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{generate\+Asset\+Object\+Url()}{generateAssetObjectUrl()}}
+{\footnotesize\ttfamily Q\+Url Q\+G\+S\+Official\+Download\+Source\+::generate\+Asset\+Object\+Url (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_asset_object}{Q\+G\+S\+Asset\+Object}} \&}]{asset\+Object }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+实现了 \mbox{\hyperlink{class_q_g_s_i_download_source_acf94724d53217be5f8ed39c035f8aece}{Q\+G\+S\+I\+Download\+Source}}.
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a212e5a145ed60ce8868069d2e09a4d59}\label{class_q_g_s_official_download_source_a212e5a145ed60ce8868069d2e09a4d59}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!generate\+Forge\+Url@{generate\+Forge\+Url}}
+\index{generate\+Forge\+Url@{generate\+Forge\+Url}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{generate\+Forge\+Url()}{generateForgeUrl()}}
+{\footnotesize\ttfamily Q\+Url Q\+G\+S\+Official\+Download\+Source\+::generate\+Forge\+Url (\begin{DoxyParamCaption}\item[{const Q\+String \&}]{mcversion,  }\item[{const Q\+String \&}]{version,  }\item[{const Q\+String \&}]{category,  }\item[{const Q\+String \&}]{format,  }\item[{const Q\+String \&}]{branch = {\ttfamily \char`\"{}\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+实现了 \mbox{\hyperlink{class_q_g_s_i_download_source_af4e1b6edc009189c6b159041f3249ce2}{Q\+G\+S\+I\+Download\+Source}}.
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a752fd52c76112d3d76551a00b399220f}\label{class_q_g_s_official_download_source_a752fd52c76112d3d76551a00b399220f}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!generate\+Forge\+Version\+Info\+Json\+Url@{generate\+Forge\+Version\+Info\+Json\+Url}}
+\index{generate\+Forge\+Version\+Info\+Json\+Url@{generate\+Forge\+Version\+Info\+Json\+Url}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{generate\+Forge\+Version\+Info\+Json\+Url()}{generateForgeVersionInfoJsonUrl()}}
+{\footnotesize\ttfamily Q\+Url Q\+G\+S\+Official\+Download\+Source\+::generate\+Forge\+Version\+Info\+Json\+Url (\begin{DoxyParamCaption}\item[{int}]{offset = {\ttfamily 1},  }\item[{int}]{limit = {\ttfamily 0} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+实现了 \mbox{\hyperlink{class_q_g_s_i_download_source_a26556a9ace422072f9ac996c5f054bc7}{Q\+G\+S\+I\+Download\+Source}}.
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a8a644e91bf18f28328b9b432620cca00}\label{class_q_g_s_official_download_source_a8a644e91bf18f28328b9b432620cca00}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!generate\+Game\+Version\+Info\+Json\+Url@{generate\+Game\+Version\+Info\+Json\+Url}}
+\index{generate\+Game\+Version\+Info\+Json\+Url@{generate\+Game\+Version\+Info\+Json\+Url}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{generate\+Game\+Version\+Info\+Json\+Url()}{generateGameVersionInfoJsonUrl()}}
+{\footnotesize\ttfamily Q\+Url Q\+G\+S\+Official\+Download\+Source\+::generate\+Game\+Version\+Info\+Json\+Url (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+实现了 \mbox{\hyperlink{class_q_g_s_i_download_source_afd99abed3078c54f167269bc6122bb71}{Q\+G\+S\+I\+Download\+Source}}.
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a591dd8ed6bbfab644b815c75f7d0710c}\label{class_q_g_s_official_download_source_a591dd8ed6bbfab644b815c75f7d0710c}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!generate\+Game\+Version\+Json\+Url@{generate\+Game\+Version\+Json\+Url}}
+\index{generate\+Game\+Version\+Json\+Url@{generate\+Game\+Version\+Json\+Url}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{generate\+Game\+Version\+Json\+Url()}{generateGameVersionJsonUrl()}}
+{\footnotesize\ttfamily Q\+Url Q\+G\+S\+Official\+Download\+Source\+::generate\+Game\+Version\+Json\+Url (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&}]{version\+Info }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+实现了 \mbox{\hyperlink{class_q_g_s_i_download_source_acf738f516ec5ce173d8a346dfe65976a}{Q\+G\+S\+I\+Download\+Source}}.
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_acb74743d3cdc6c2211e56aa0e5b16b93}\label{class_q_g_s_official_download_source_acb74743d3cdc6c2211e56aa0e5b16b93}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!generate\+Game\+Version\+Url@{generate\+Game\+Version\+Url}}
+\index{generate\+Game\+Version\+Url@{generate\+Game\+Version\+Url}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{generate\+Game\+Version\+Url()}{generateGameVersionUrl()}}
+{\footnotesize\ttfamily Q\+Url Q\+G\+S\+Official\+Download\+Source\+::generate\+Game\+Version\+Url (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_game_version}{Q\+G\+S\+Game\+Version}} \&}]{version,  }\item[{const Q\+String \&}]{category }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+实现了 \mbox{\hyperlink{class_q_g_s_i_download_source_a59b370202b6c3459d70cf6e7f84273e1}{Q\+G\+S\+I\+Download\+Source}}.
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a07d41c6aed39acc0cdc071b374ce04bc}\label{class_q_g_s_official_download_source_a07d41c6aed39acc0cdc071b374ce04bc}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!generate\+Library\+Url@{generate\+Library\+Url}}
+\index{generate\+Library\+Url@{generate\+Library\+Url}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{generate\+Library\+Url()}{generateLibraryUrl()}}
+{\footnotesize\ttfamily Q\+Url Q\+G\+S\+Official\+Download\+Source\+::generate\+Library\+Url (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_library}{Q\+G\+S\+Library}} \&}]{library }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+实现了 \mbox{\hyperlink{class_q_g_s_i_download_source_a8726e4ed35bb7997105de8987a621957}{Q\+G\+S\+I\+Download\+Source}}.
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a78f454b773647b61aa748f5be9b10ba1}\label{class_q_g_s_official_download_source_a78f454b773647b61aa748f5be9b10ba1}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!generate\+Lite\+Loader\+Url@{generate\+Lite\+Loader\+Url}}
+\index{generate\+Lite\+Loader\+Url@{generate\+Lite\+Loader\+Url}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{generate\+Lite\+Loader\+Url()}{generateLiteLoaderUrl()}}
+{\footnotesize\ttfamily Q\+Url Q\+G\+S\+Official\+Download\+Source\+::generate\+Lite\+Loader\+Url (\begin{DoxyParamCaption}\item[{Q\+String}]{mcversion,  }\item[{Q\+String}]{version,  }\item[{const Q\+String \&}]{category }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+实现了 \mbox{\hyperlink{class_q_g_s_i_download_source_aed0602232cd1cbc207747c216b3b6d30}{Q\+G\+S\+I\+Download\+Source}}.
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_aab46bc9decd9cb2e2fe9e9d403d36575}\label{class_q_g_s_official_download_source_aab46bc9decd9cb2e2fe9e9d403d36575}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!generate\+Lite\+Loader\+Version\+Info\+Json\+Url@{generate\+Lite\+Loader\+Version\+Info\+Json\+Url}}
+\index{generate\+Lite\+Loader\+Version\+Info\+Json\+Url@{generate\+Lite\+Loader\+Version\+Info\+Json\+Url}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{generate\+Lite\+Loader\+Version\+Info\+Json\+Url()}{generateLiteLoaderVersionInfoJsonUrl()}}
+{\footnotesize\ttfamily Q\+Url Q\+G\+S\+Official\+Download\+Source\+::generate\+Lite\+Loader\+Version\+Info\+Json\+Url (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+实现了 \mbox{\hyperlink{class_q_g_s_i_download_source_a276656b21753de8384d457def7c23701}{Q\+G\+S\+I\+Download\+Source}}.
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a83a502b4513eb1286bc97a863ddf980c}\label{class_q_g_s_official_download_source_a83a502b4513eb1286bc97a863ddf980c}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!generate\+Logging\+Url@{generate\+Logging\+Url}}
+\index{generate\+Logging\+Url@{generate\+Logging\+Url}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{generate\+Logging\+Url()}{generateLoggingUrl()}}
+{\footnotesize\ttfamily Q\+Url Q\+G\+S\+Official\+Download\+Source\+::generate\+Logging\+Url (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_logging}{Q\+G\+S\+Logging}} \&}]{logging }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+实现了 \mbox{\hyperlink{class_q_g_s_i_download_source_aae93e5aba009f01df11cbbc6aacac96f}{Q\+G\+S\+I\+Download\+Source}}.
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a0bcd5b86c818cdd76195e16ccddb23da}\label{class_q_g_s_official_download_source_a0bcd5b86c818cdd76195e16ccddb23da}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!generate\+Optifine\+Url@{generate\+Optifine\+Url}}
+\index{generate\+Optifine\+Url@{generate\+Optifine\+Url}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{generate\+Optifine\+Url()}{generateOptifineUrl()}}
+{\footnotesize\ttfamily Q\+Url Q\+G\+S\+Official\+Download\+Source\+::generate\+Optifine\+Url (\begin{DoxyParamCaption}\item[{const Q\+String \&}]{mcversion,  }\item[{const Q\+String \&}]{type,  }\item[{const Q\+String \&}]{patch }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+实现了 \mbox{\hyperlink{class_q_g_s_i_download_source_a123c772c2a3f8431a96f676bc0e4cc91}{Q\+G\+S\+I\+Download\+Source}}.
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a32b22d324a98de1863d1da57066f4ac1}\label{class_q_g_s_official_download_source_a32b22d324a98de1863d1da57066f4ac1}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!generate\+Optifine\+Version\+Info\+Json\+Url@{generate\+Optifine\+Version\+Info\+Json\+Url}}
+\index{generate\+Optifine\+Version\+Info\+Json\+Url@{generate\+Optifine\+Version\+Info\+Json\+Url}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{generate\+Optifine\+Version\+Info\+Json\+Url()}{generateOptifineVersionInfoJsonUrl()}}
+{\footnotesize\ttfamily Q\+Url Q\+G\+S\+Official\+Download\+Source\+::generate\+Optifine\+Version\+Info\+Json\+Url (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+实现了 \mbox{\hyperlink{class_q_g_s_i_download_source_a206fb5382716c8f34070eae836f9b742}{Q\+G\+S\+I\+Download\+Source}}.
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a4c5c518cc098a9d14a21312b5f5b6c5a}\label{class_q_g_s_official_download_source_a4c5c518cc098a9d14a21312b5f5b6c5a}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!operator=@{operator=}}
+\index{operator=@{operator=}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_q_g_s_official_download_source}{Q\+G\+S\+Official\+Download\+Source}}\& Q\+G\+S\+Official\+Download\+Source\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_official_download_source}{Q\+G\+S\+Official\+Download\+Source}} \&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_q_g_s_official_download_source_a03ede2c62cf5202cf55c5a4cbd07cd31}\label{class_q_g_s_official_download_source_a03ede2c62cf5202cf55c5a4cbd07cd31}} 
+\index{Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}!operator=@{operator=}}
+\index{operator=@{operator=}!Q\+G\+S\+Official\+Download\+Source@{Q\+G\+S\+Official\+Download\+Source}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_q_g_s_official_download_source}{Q\+G\+S\+Official\+Download\+Source}}\& Q\+G\+S\+Official\+Download\+Source\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_g_s_official_download_source}{Q\+G\+S\+Official\+Download\+Source}} \&\&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+该类的文档由以下文件生成\+:\begin{DoxyCompactItemize}
+\item 
+F\+:/\+Projects/\+Git/\+Q\+Getting\+Started/\+Q\+Getting\+Started/\+Download/\mbox{\hyperlink{_q_g_s_official_download_source_8h}{Q\+G\+S\+Official\+Download\+Source.\+h}}\item 
+F\+:/\+Projects/\+Git/\+Q\+Getting\+Started/\+Q\+Getting\+Started/\+Download/\mbox{\hyperlink{_q_g_s_official_download_source_8cpp}{Q\+G\+S\+Official\+Download\+Source.\+cpp}}\end{DoxyCompactItemize}

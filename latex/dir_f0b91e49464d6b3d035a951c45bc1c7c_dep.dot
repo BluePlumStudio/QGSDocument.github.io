@@ -1,0 +1,13 @@
+digraph "F:/Projects/Git" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_c4a6d00bdc510136fbd964986dc2264a {
+    graph [ bgcolor="#ddddee", pencolor="black", label="Projects" fontname="Helvetica", fontsize="10", URL="dir_c4a6d00bdc510136fbd964986dc2264a.html"]
+  subgraph clusterdir_f0b91e49464d6b3d035a951c45bc1c7c {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_f0b91e49464d6b3d035a951c45bc1c7c.html"];
+    dir_f0b91e49464d6b3d035a951c45bc1c7c [shape=plaintext label="Git"];
+    dir_274e15df15b8e0e4ff4816aed6a5f940 [shape=box label="QGettingStarted" color="red" fillcolor="white" style="filled" URL="dir_274e15df15b8e0e4ff4816aed6a5f940.html"];
+  }
+  }
+}

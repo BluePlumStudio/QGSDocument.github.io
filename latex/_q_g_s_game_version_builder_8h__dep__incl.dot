@@ -1,0 +1,34 @@
+digraph "F:/Projects/Git/QGettingStarted/QGettingStarted/Builder/QGSGameVersionBuilder.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node78 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Builder/QGSGameVersionBuilder.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node78 -> Node79 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node79 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Builder/QGSGameVersionJsonDownload\lTaskGenerationTask.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_game_version_json_download_task_generation_task_8h.html"];
+  Node79 -> Node80 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node80 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Builder/QGSAssetIndexJsonDownload\lTaskGenerationTask.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_asset_index_json_download_task_generation_task_8cpp.html"];
+  Node79 -> Node81 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node81 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Builder/QGSAssetObjectDownload\lTaskGenerationTask.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_asset_object_download_task_generation_task_8cpp.html"];
+  Node79 -> Node82 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node82 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Builder/QGSGameVersionBuilder.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_game_version_builder_8cpp.html"];
+  Node79 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node83 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Builder/QGSGameVersionDownload\lTaskGenerationTask.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_game_version_download_task_generation_task_8cpp.html"];
+  Node79 -> Node84 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node84 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Builder/QGSGameVersionJsonDownload\lTaskGenerationTask.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_game_version_json_download_task_generation_task_8cpp.html"];
+  Node79 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node85 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Builder/QGSLibraryBuilder.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_library_builder_8cpp.html"];
+  Node78 -> Node86 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node86 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Builder/QGSBuilderFactory.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_builder_factory_8h.html"];
+  Node86 -> Node87 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node87 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Builder/QGSBuilderFactory.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_builder_factory_8cpp.html"];
+  Node86 -> Node88 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node88 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/QGettingStarted.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_getting_started_8h.html"];
+  Node88 -> Node89 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node89 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html"];
+  Node78 -> Node82 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node78 -> Node90 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node90 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Builder/QGSGameVersionDownload\lTaskGenerationTask.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_game_version_download_task_generation_task_8h.html"];
+  Node90 -> Node82 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node90 -> Node83 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+  Node90 -> Node85 [dir="back",color="midnightblue",fontsize="10",style="solid"];
+}

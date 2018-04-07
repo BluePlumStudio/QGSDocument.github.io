@@ -1,0 +1,96 @@
+\hypertarget{class_q_g_s_i_launcher_strategy}{}\section{Q\+G\+S\+I\+Launcher\+Strategy类 参考}
+\label{class_q_g_s_i_launcher_strategy}\index{Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}}
+
+
+{\ttfamily \#include $<$Q\+G\+S\+I\+Launcher\+Strategy.\+h$>$}
+
+
+
+类 Q\+G\+S\+I\+Launcher\+Strategy 继承关系图\+:
+% FIG 0
+\subsection*{Public 成员函数}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_q_g_s_i_launcher_strategy_aa45a8d5ff2c02ebefe418beb8183ad3e}{Q\+G\+S\+I\+Launcher\+Strategy}} ()
+\item 
+\mbox{\hyperlink{class_q_g_s_i_launcher_strategy_a864252fe899cfe21b97218a89ca188b3}{Q\+G\+S\+I\+Launcher\+Strategy}} (const \mbox{\hyperlink{class_q_g_s_i_launcher_strategy}{Q\+G\+S\+I\+Launcher\+Strategy}} \&right)=delete
+\item 
+\mbox{\hyperlink{class_q_g_s_i_launcher_strategy_ae2c84f9cfb656bf821870161bd0becec}{Q\+G\+S\+I\+Launcher\+Strategy}} (\mbox{\hyperlink{class_q_g_s_i_launcher_strategy}{Q\+G\+S\+I\+Launcher\+Strategy}} \&\&right)=delete
+\item 
+\mbox{\hyperlink{class_q_g_s_i_launcher_strategy}{Q\+G\+S\+I\+Launcher\+Strategy}} \& \mbox{\hyperlink{class_q_g_s_i_launcher_strategy_ae47233d64af17d2435f5c61640db8779}{operator=}} (const \mbox{\hyperlink{class_q_g_s_i_launcher_strategy}{Q\+G\+S\+I\+Launcher\+Strategy}} \&right)=delete
+\item 
+\mbox{\hyperlink{class_q_g_s_i_launcher_strategy}{Q\+G\+S\+I\+Launcher\+Strategy}} \& \mbox{\hyperlink{class_q_g_s_i_launcher_strategy_a200e750013974d9abfc34c6910f6a35f}{operator=}} (\mbox{\hyperlink{class_q_g_s_i_launcher_strategy}{Q\+G\+S\+I\+Launcher\+Strategy}} \&\&right)=delete
+\item 
+virtual \mbox{\hyperlink{class_q_g_s_i_launcher_strategy_a02f896115554dd6da7f0d996633b8f16}{$\sim$\+Q\+G\+S\+I\+Launcher\+Strategy}} ()
+\item 
+virtual \mbox{\hyperlink{namespace_launcher_error_ac3a8c0329368b890069c60ac80628085}{Launcher\+Error\+::\+Error\+Flags}} \mbox{\hyperlink{class_q_g_s_i_launcher_strategy_ab09ca6f8e4bbe0a2d6bdb6848c18638b}{generate\+Launch\+Command}} (const \mbox{\hyperlink{class_q_g_s_game_version}{Q\+G\+S\+Game\+Version}} \&version, \mbox{\hyperlink{class_q_g_s_game_directory}{Q\+G\+S\+Game\+Directory}} \&game\+Directory, const \mbox{\hyperlink{class_q_g_s_launch_options}{Q\+G\+S\+Launch\+Options}} $\ast$launch\+Options, Q\+String \&command)=0
+\end{DoxyCompactItemize}
+\subsection*{Protected 成员函数}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_q_g_s_i_launcher_strategy_aa443633178590a1831e9867e8345488e}{is\+Rules\+Allowing}} (const \mbox{\hyperlink{class_q_g_s_rules}{Q\+G\+S\+Rules}} \&rules)
+\end{DoxyCompactItemize}
+
+
+\subsection{构造及析构函数说明}
+\mbox{\Hypertarget{class_q_g_s_i_launcher_strategy_aa45a8d5ff2c02ebefe418beb8183ad3e}\label{class_q_g_s_i_launcher_strategy_aa45a8d5ff2c02ebefe418beb8183ad3e}} 
+\index{Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}!Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}}
+\index{Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}!Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}}
+\subsubsection{\texorpdfstring{Q\+G\+S\+I\+Launcher\+Strategy()}{QGSILauncherStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Q\+G\+S\+I\+Launcher\+Strategy\+::\+Q\+G\+S\+I\+Launcher\+Strategy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_q_g_s_i_launcher_strategy_a864252fe899cfe21b97218a89ca188b3}\label{class_q_g_s_i_launcher_strategy_a864252fe899cfe21b97218a89ca188b3}} 
+\index{Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}!Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}}
+\index{Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}!Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}}
+\subsubsection{\texorpdfstring{Q\+G\+S\+I\+Launcher\+Strategy()}{QGSILauncherStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Q\+G\+S\+I\+Launcher\+Strategy\+::\+Q\+G\+S\+I\+Launcher\+Strategy (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_i_launcher_strategy}{Q\+G\+S\+I\+Launcher\+Strategy}} \&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_launcher_strategy_ae2c84f9cfb656bf821870161bd0becec}\label{class_q_g_s_i_launcher_strategy_ae2c84f9cfb656bf821870161bd0becec}} 
+\index{Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}!Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}}
+\index{Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}!Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}}
+\subsubsection{\texorpdfstring{Q\+G\+S\+I\+Launcher\+Strategy()}{QGSILauncherStrategy()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Q\+G\+S\+I\+Launcher\+Strategy\+::\+Q\+G\+S\+I\+Launcher\+Strategy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_g_s_i_launcher_strategy}{Q\+G\+S\+I\+Launcher\+Strategy}} \&\&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_launcher_strategy_a02f896115554dd6da7f0d996633b8f16}\label{class_q_g_s_i_launcher_strategy_a02f896115554dd6da7f0d996633b8f16}} 
+\index{Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}!````~Q\+G\+S\+I\+Launcher\+Strategy@{$\sim$\+Q\+G\+S\+I\+Launcher\+Strategy}}
+\index{````~Q\+G\+S\+I\+Launcher\+Strategy@{$\sim$\+Q\+G\+S\+I\+Launcher\+Strategy}!Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}}
+\subsubsection{\texorpdfstring{$\sim$\+Q\+G\+S\+I\+Launcher\+Strategy()}{~QGSILauncherStrategy()}}
+{\footnotesize\ttfamily Q\+G\+S\+I\+Launcher\+Strategy\+::$\sim$\+Q\+G\+S\+I\+Launcher\+Strategy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\subsection{成员函数说明}
+\mbox{\Hypertarget{class_q_g_s_i_launcher_strategy_ab09ca6f8e4bbe0a2d6bdb6848c18638b}\label{class_q_g_s_i_launcher_strategy_ab09ca6f8e4bbe0a2d6bdb6848c18638b}} 
+\index{Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}!generate\+Launch\+Command@{generate\+Launch\+Command}}
+\index{generate\+Launch\+Command@{generate\+Launch\+Command}!Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}}
+\subsubsection{\texorpdfstring{generate\+Launch\+Command()}{generateLaunchCommand()}}
+{\footnotesize\ttfamily virtual \mbox{\hyperlink{namespace_launcher_error_ac3a8c0329368b890069c60ac80628085}{Launcher\+Error\+::\+Error\+Flags}} Q\+G\+S\+I\+Launcher\+Strategy\+::generate\+Launch\+Command (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_game_version}{Q\+G\+S\+Game\+Version}} \&}]{version,  }\item[{\mbox{\hyperlink{class_q_g_s_game_directory}{Q\+G\+S\+Game\+Directory}} \&}]{game\+Directory,  }\item[{const \mbox{\hyperlink{class_q_g_s_launch_options}{Q\+G\+S\+Launch\+Options}} $\ast$}]{launch\+Options,  }\item[{Q\+String \&}]{command }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+在 \mbox{\hyperlink{class_q_g_s_general_launcher_strategy_a224aef3dbad0412c02f2952644d00260}{Q\+G\+S\+General\+Launcher\+Strategy}} 内被实现.
+
+\mbox{\Hypertarget{class_q_g_s_i_launcher_strategy_aa443633178590a1831e9867e8345488e}\label{class_q_g_s_i_launcher_strategy_aa443633178590a1831e9867e8345488e}} 
+\index{Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}!is\+Rules\+Allowing@{is\+Rules\+Allowing}}
+\index{is\+Rules\+Allowing@{is\+Rules\+Allowing}!Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}}
+\subsubsection{\texorpdfstring{is\+Rules\+Allowing()}{isRulesAllowing()}}
+{\footnotesize\ttfamily bool Q\+G\+S\+I\+Launcher\+Strategy\+::is\+Rules\+Allowing (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_rules}{Q\+G\+S\+Rules}} \&}]{rules }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_launcher_strategy_ae47233d64af17d2435f5c61640db8779}\label{class_q_g_s_i_launcher_strategy_ae47233d64af17d2435f5c61640db8779}} 
+\index{Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}!operator=@{operator=}}
+\index{operator=@{operator=}!Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_q_g_s_i_launcher_strategy}{Q\+G\+S\+I\+Launcher\+Strategy}}\& Q\+G\+S\+I\+Launcher\+Strategy\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_i_launcher_strategy}{Q\+G\+S\+I\+Launcher\+Strategy}} \&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_launcher_strategy_a200e750013974d9abfc34c6910f6a35f}\label{class_q_g_s_i_launcher_strategy_a200e750013974d9abfc34c6910f6a35f}} 
+\index{Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}!operator=@{operator=}}
+\index{operator=@{operator=}!Q\+G\+S\+I\+Launcher\+Strategy@{Q\+G\+S\+I\+Launcher\+Strategy}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_q_g_s_i_launcher_strategy}{Q\+G\+S\+I\+Launcher\+Strategy}}\& Q\+G\+S\+I\+Launcher\+Strategy\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_g_s_i_launcher_strategy}{Q\+G\+S\+I\+Launcher\+Strategy}} \&\&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+该类的文档由以下文件生成\+:\begin{DoxyCompactItemize}
+\item 
+F\+:/\+Projects/\+Git/\+Q\+Getting\+Started/\+Q\+Getting\+Started/\+Launcher/\mbox{\hyperlink{_q_g_s_i_launcher_strategy_8h}{Q\+G\+S\+I\+Launcher\+Strategy.\+h}}\item 
+F\+:/\+Projects/\+Git/\+Q\+Getting\+Started/\+Q\+Getting\+Started/\+Launcher/\mbox{\hyperlink{_q_g_s_i_launcher_strategy_8cpp}{Q\+G\+S\+I\+Launcher\+Strategy.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,23 @@
+digraph "F:/Projects/Git/QGettingStarted/QGettingStarted/Builder" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_33faca7923b0727d5ff07d4415b69f6b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="QGettingStarted" fontname="Helvetica", fontsize="10", URL="dir_33faca7923b0727d5ff07d4415b69f6b.html"]
+  dir_e77ca11809a9a4eb4a5806a461b4201a [shape=box, label="Builder", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_e77ca11809a9a4eb4a5806a461b4201a.html"];
+  }
+  dir_df77136a0a02100f425955b2e8c772f6 [shape=box label="GameVersion" URL="dir_df77136a0a02100f425955b2e8c772f6.html"];
+  dir_ff3bc41a7f72d601f5c2a0987c81ee5e [shape=box label="Launcher" URL="dir_ff3bc41a7f72d601f5c2a0987c81ee5e.html"];
+  dir_a57d3e713690e091552fb7a6f36ebf76 [shape=box label="Download" URL="dir_a57d3e713690e091552fb7a6f36ebf76.html"];
+  dir_890fa5e9da6fb108cb536419756a934a [shape=box label="Util" URL="dir_890fa5e9da6fb108cb536419756a934a.html"];
+  dir_e77ca11809a9a4eb4a5806a461b4201a->dir_df77136a0a02100f425955b2e8c772f6 [headlabel="5", labeldistance=1.5 headhref="dir_000005_000007.html"];
+  dir_e77ca11809a9a4eb4a5806a461b4201a->dir_ff3bc41a7f72d601f5c2a0987c81ee5e [headlabel="1", labeldistance=1.5 headhref="dir_000005_000008.html"];
+  dir_e77ca11809a9a4eb4a5806a461b4201a->dir_a57d3e713690e091552fb7a6f36ebf76 [headlabel="3", labeldistance=1.5 headhref="dir_000005_000006.html"];
+  dir_e77ca11809a9a4eb4a5806a461b4201a->dir_890fa5e9da6fb108cb536419756a934a [headlabel="26", labeldistance=1.5 headhref="dir_000005_000010.html"];
+  dir_df77136a0a02100f425955b2e8c772f6->dir_890fa5e9da6fb108cb536419756a934a [headlabel="30", labeldistance=1.5 headhref="dir_000007_000010.html"];
+  dir_ff3bc41a7f72d601f5c2a0987c81ee5e->dir_df77136a0a02100f425955b2e8c772f6 [headlabel="6", labeldistance=1.5 headhref="dir_000008_000007.html"];
+  dir_ff3bc41a7f72d601f5c2a0987c81ee5e->dir_890fa5e9da6fb108cb536419756a934a [headlabel="6", labeldistance=1.5 headhref="dir_000008_000010.html"];
+  dir_a57d3e713690e091552fb7a6f36ebf76->dir_df77136a0a02100f425955b2e8c772f6 [headlabel="12", labeldistance=1.5 headhref="dir_000006_000007.html"];
+  dir_a57d3e713690e091552fb7a6f36ebf76->dir_ff3bc41a7f72d601f5c2a0987c81ee5e [headlabel="8", labeldistance=1.5 headhref="dir_000006_000008.html"];
+  dir_a57d3e713690e091552fb7a6f36ebf76->dir_890fa5e9da6fb108cb536419756a934a [headlabel="14", labeldistance=1.5 headhref="dir_000006_000010.html"];
+}

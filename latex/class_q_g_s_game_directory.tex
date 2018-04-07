@@ -1,0 +1,341 @@
+\hypertarget{class_q_g_s_game_directory}{}\section{Q\+G\+S\+Game\+DirectoryÁ±ª ÂèÇËÄÉ}
+\label{class_q_g_s_game_directory}\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+
+
+{\ttfamily \#include $<$Q\+G\+S\+Game\+Directory.\+h$>$}
+
+
+
+ÁªßÊâøËá™ Q\+Object .
+
+\subsection*{Public ÊàêÂëòÂáΩÊï∞}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_q_g_s_game_directory_a3bdb7ff5edb5e460f425cffb499fc25b}{Q\+G\+S\+Game\+Directory}} (const Q\+Dir \&base\+Dir, Q\+Object $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Q\+G\+S\+Game\+Directoryππ‘Ï∫Ø ˝ \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_q_g_s_game_directory_a1ce062aea1cbc90d891030e021df28dc}{Q\+G\+S\+Game\+Directory}} (Q\+Dir \&\&base\+Dir, Q\+Object $\ast$parent=nullptr)
+\begin{DoxyCompactList}\small\item\em Q\+G\+S\+Game\+Directoryππ‘Ï∫Ø ˝ \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_q_g_s_game_directory_ad5ccdce95330c099fce0b05c94aae5b8}{Q\+G\+S\+Game\+Directory}} (const \mbox{\hyperlink{class_q_g_s_game_directory}{Q\+G\+S\+Game\+Directory}} \&right)=default
+\item 
+\mbox{\hyperlink{class_q_g_s_game_directory_a4d1c6a621c2de25df717765f3e2ac4bc}{Q\+G\+S\+Game\+Directory}} (\mbox{\hyperlink{class_q_g_s_game_directory}{Q\+G\+S\+Game\+Directory}} \&\&right)=default
+\item 
+\mbox{\hyperlink{class_q_g_s_game_directory}{Q\+G\+S\+Game\+Directory}} \& \mbox{\hyperlink{class_q_g_s_game_directory_a92a8780e4e1a28b379c1056427a28188}{operator=}} (const \mbox{\hyperlink{class_q_g_s_game_directory}{Q\+G\+S\+Game\+Directory}} \&right)=default
+\item 
+\mbox{\hyperlink{class_q_g_s_game_directory}{Q\+G\+S\+Game\+Directory}} \& \mbox{\hyperlink{class_q_g_s_game_directory_a1dfa3ea4aef78249e2e13f0dda8087dc}{operator=}} (\mbox{\hyperlink{class_q_g_s_game_directory}{Q\+G\+S\+Game\+Directory}} \&\&right)=default
+\item 
+virtual \mbox{\hyperlink{class_q_g_s_game_directory_a33ccb1a49ccec2485a778adf0c1394cd}{$\sim$\+Q\+G\+S\+Game\+Directory}} ()
+\item 
+const \mbox{\hyperlink{class_q_g_s_game_version}{Q\+G\+S\+Game\+Version}} \& \mbox{\hyperlink{class_q_g_s_game_directory_a5bc0793dc5f9475e80c68842f30b24f9}{get\+Version}} (const Q\+String \&version)
+\begin{DoxyCompactList}\small\item\em Q\+G\+S\+Game\+Directoryππ‘Ï∫Ø ˝ \end{DoxyCompactList}\item 
+const \mbox{\hyperlink{class_q_g_s_game_version}{Q\+G\+S\+Game\+Version}} \& \mbox{\hyperlink{class_q_g_s_game_directory_a070fd0a7126b2bd5e9b58ed447c53b67}{get\+Version}} (const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&game\+Version\+Info)
+\item 
+const \mbox{\hyperlink{class_q_g_s_game_version}{Q\+G\+S\+Game\+Version}} \& \mbox{\hyperlink{class_q_g_s_game_directory_a4a8c72509f4a3eb15a825961c596eee9}{add\+Version}} (const Q\+String version)
+\item 
+const \mbox{\hyperlink{class_q_g_s_game_version}{Q\+G\+S\+Game\+Version}} \& \mbox{\hyperlink{class_q_g_s_game_directory_ace94804b67499a105a73d6d355ecce20}{add\+Version}} (const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&game\+Version\+Info)
+\item 
+bool \mbox{\hyperlink{class_q_g_s_game_directory_ac7ffc5f939d69fea1a609fc516fbb96c}{contains\+Version}} (const Q\+String \&version) const
+\item 
+bool \mbox{\hyperlink{class_q_g_s_game_directory_a725227fce0dc089f036f90ae5b44caae}{contains\+Version}} (const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&game\+Version\+Info) const
+\item 
+Q\+File $\ast$ \mbox{\hyperlink{class_q_g_s_game_directory_ae7d872759817bd28c126f53a9573fefe}{generate\+Game\+Version\+Jar\+File}} (const Q\+String \&version, const bool with\+Absolute\+Path=true) const
+\item 
+Q\+File $\ast$ \mbox{\hyperlink{class_q_g_s_game_directory_a87d6c24b0d8af77e86b02f4dd80c90ac}{generate\+Game\+Version\+Jar\+File}} (const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&game\+Version\+Info, const bool with\+Absolute\+Path=true) const
+\item 
+Q\+File $\ast$ \mbox{\hyperlink{class_q_g_s_game_directory_af8ac6ae63f8eceec971be1e82e334069}{generate\+Game\+Version\+Json\+File}} (const Q\+String \&version, const bool with\+Absolute\+Path=true) const
+\item 
+Q\+File $\ast$ \mbox{\hyperlink{class_q_g_s_game_directory_a6b933e58efa7ccdb1d84e88aa71ec6d1}{generate\+Game\+Version\+Json\+File}} (const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&game\+Version\+Info, const bool with\+Absolute\+Path=true) const
+\item 
+Q\+File $\ast$ \mbox{\hyperlink{class_q_g_s_game_directory_abda3cdbf34c8c6649aa85d05ee3e83d2}{generate\+Asset\+Index\+Json\+File}} (const \mbox{\hyperlink{class_q_g_s_asset_index}{Q\+G\+S\+Asset\+Index}} \&asset\+Index, const bool with\+Absolute\+Path=true) const
+\item 
+Q\+File $\ast$ \mbox{\hyperlink{class_q_g_s_game_directory_a36f7eea8dc5af96fea4324a0e74c8a22}{generate\+Asset\+Index\+Json\+File}} (const Q\+String \&version, const bool with\+Absolute\+Path=true)
+\item 
+Q\+File $\ast$ \mbox{\hyperlink{class_q_g_s_game_directory_a49e127e536b8d473578c8efcc97962e1}{generate\+Asset\+Index\+Json\+File}} (const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&game\+Version\+Info, const bool with\+Absolute\+Path=true)
+\item 
+Q\+File $\ast$ \mbox{\hyperlink{class_q_g_s_game_directory_a6c65c56ff8dd9dddcb5fe554d8a102e6}{generate\+Library\+File}} (const \mbox{\hyperlink{class_q_g_s_library}{Q\+G\+S\+Library}} \&library, const bool with\+Absolute\+Path=true) const
+\item 
+Q\+Vector$<$ Q\+File $\ast$ $>$ \mbox{\hyperlink{class_q_g_s_game_directory_a1a77693d4bca0b8f0d6abe164a96eafb}{generate\+Library\+Files}} (const Q\+List$<$ \mbox{\hyperlink{class_q_g_s_library}{Q\+G\+S\+Library}} $>$ \&library\+List, const bool with\+Absolute\+Path=true) const
+\item 
+Q\+Dir \mbox{\hyperlink{class_q_g_s_game_directory_a034a40c287c1bb2b3ec6ecc42e97b59b}{generate\+Versions\+Directory}} (const bool with\+Absolute\+Path=true) const
+\item 
+Q\+Dir \mbox{\hyperlink{class_q_g_s_game_directory_a765b55b6e1d5359d2290c801a815efee}{generate\+Libraries\+Directory}} (const bool with\+Absolute\+Path=true) const
+\item 
+Q\+Dir \mbox{\hyperlink{class_q_g_s_game_directory_a9350d525196a7c6f59c225f3b5703765}{generate\+Natives\+Directory}} (const Q\+String \&version, const bool with\+Absolute\+Path=true) const
+\item 
+Q\+Dir \mbox{\hyperlink{class_q_g_s_game_directory_ac1d8970969a67c381419d82c2a417005}{generate\+Natives\+Directory}} (const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&game\+Version\+Info, const bool with\+Absolute\+Path=true) const
+\item 
+Q\+Dir \mbox{\hyperlink{class_q_g_s_game_directory_a21dd5c0148e53b411fb34454e420c3b2}{get\+Base\+Dir}} () const
+\item 
+bool \mbox{\hyperlink{class_q_g_s_game_directory_a3555a3afd10b0e12e5999de3ee33db9d}{generate\+Assets\+Directory}} (Q\+String version, const \mbox{\hyperlink{class_q_g_s_asset_index}{Q\+G\+S\+Asset\+Index}} \&asset\+Index, Q\+Dir \&dir)
+\item 
+Q\+Dir \mbox{\hyperlink{class_q_g_s_game_directory_a7a7937b016d23546139159e3e46c595b}{generate\+Assets\+Directory}} (const bool with\+Absolute\+Path=true)
+\item 
+Q\+File $\ast$ \mbox{\hyperlink{class_q_g_s_game_directory_ad26a645aa34d8bf76399c49d80aa2d75}{generate\+Asset\+Object\+File}} (const \mbox{\hyperlink{class_q_g_s_asset_object}{Q\+G\+S\+Asset\+Object}} \&asset\+Object, const bool with\+Absolute\+Path=true)
+\end{DoxyCompactItemize}
+\subsection*{ÈùôÊÄÅ Public ÊàêÂëòÂáΩÊï∞}
+\begin{DoxyCompactItemize}
+\item 
+static Q\+String \mbox{\hyperlink{class_q_g_s_game_directory_a862cadde0ec810cb444346fcf2f75da4}{prase\+Library\+Name}} (const \mbox{\hyperlink{class_q_g_s_library}{Q\+G\+S\+Library}} \&library)
+\item 
+static Q\+String \mbox{\hyperlink{class_q_g_s_game_directory_a05d4f173c565e05d9f271a31ea6a82e6}{prase\+Name}} (const Q\+String \&name)
+\end{DoxyCompactItemize}
+
+
+\subsection{ÊûÑÈÄ†ÂèäÊûêÊûÑÂáΩÊï∞ËØ¥Êòé}
+\mbox{\Hypertarget{class_q_g_s_game_directory_a3bdb7ff5edb5e460f425cffb499fc25b}\label{class_q_g_s_game_directory_a3bdb7ff5edb5e460f425cffb499fc25b}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{Q\+G\+S\+Game\+Directory()}{QGSGameDirectory()}\hspace{0.1cm}{\footnotesize\ttfamily [1/4]}}
+{\footnotesize\ttfamily Q\+G\+S\+Game\+Directory\+::\+Q\+G\+S\+Game\+Directory (\begin{DoxyParamCaption}\item[{const Q\+Dir \&}]{base\+Dir,  }\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+
+
+Q\+G\+S\+Game\+Directoryππ‘Ï∫Ø ˝ 
+
+
+\begin{DoxyParams}{ÂèÇÊï∞}
+{\em base\+Dir} & ”Œœ∑ƒø¬º\\
+\hline
+{\em parent} & ∏∏∂‘œÛ\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{ËøîÂõû}
+
+\end{DoxyReturn}
+
+\begin{DoxyRetVals}{ËøîÂõûÂÄº}
+{\em } & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{class_q_g_s_game_directory_a1ce062aea1cbc90d891030e021df28dc}\label{class_q_g_s_game_directory_a1ce062aea1cbc90d891030e021df28dc}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{Q\+G\+S\+Game\+Directory()}{QGSGameDirectory()}\hspace{0.1cm}{\footnotesize\ttfamily [2/4]}}
+{\footnotesize\ttfamily Q\+G\+S\+Game\+Directory\+::\+Q\+G\+S\+Game\+Directory (\begin{DoxyParamCaption}\item[{Q\+Dir \&\&}]{base\+Dir,  }\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+
+
+Q\+G\+S\+Game\+Directoryππ‘Ï∫Ø ˝ 
+
+
+\begin{DoxyParams}{ÂèÇÊï∞}
+{\em base\+Dir} & ”Œœ∑ƒø¬º\\
+\hline
+{\em parent} & ∏∏∂‘œÛ\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{ËøîÂõû}
+
+\end{DoxyReturn}
+
+\begin{DoxyRetVals}{ËøîÂõûÂÄº}
+{\em } & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{class_q_g_s_game_directory_ad5ccdce95330c099fce0b05c94aae5b8}\label{class_q_g_s_game_directory_ad5ccdce95330c099fce0b05c94aae5b8}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{Q\+G\+S\+Game\+Directory()}{QGSGameDirectory()}\hspace{0.1cm}{\footnotesize\ttfamily [3/4]}}
+{\footnotesize\ttfamily Q\+G\+S\+Game\+Directory\+::\+Q\+G\+S\+Game\+Directory (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_game_directory}{Q\+G\+S\+Game\+Directory}} \&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a4d1c6a621c2de25df717765f3e2ac4bc}\label{class_q_g_s_game_directory_a4d1c6a621c2de25df717765f3e2ac4bc}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{Q\+G\+S\+Game\+Directory()}{QGSGameDirectory()}\hspace{0.1cm}{\footnotesize\ttfamily [4/4]}}
+{\footnotesize\ttfamily Q\+G\+S\+Game\+Directory\+::\+Q\+G\+S\+Game\+Directory (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_g_s_game_directory}{Q\+G\+S\+Game\+Directory}} \&\&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a33ccb1a49ccec2485a778adf0c1394cd}\label{class_q_g_s_game_directory_a33ccb1a49ccec2485a778adf0c1394cd}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!````~Q\+G\+S\+Game\+Directory@{$\sim$\+Q\+G\+S\+Game\+Directory}}
+\index{````~Q\+G\+S\+Game\+Directory@{$\sim$\+Q\+G\+S\+Game\+Directory}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{$\sim$\+Q\+G\+S\+Game\+Directory()}{~QGSGameDirectory()}}
+{\footnotesize\ttfamily Q\+G\+S\+Game\+Directory\+::$\sim$\+Q\+G\+S\+Game\+Directory (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\subsection{ÊàêÂëòÂáΩÊï∞ËØ¥Êòé}
+\mbox{\Hypertarget{class_q_g_s_game_directory_a4a8c72509f4a3eb15a825961c596eee9}\label{class_q_g_s_game_directory_a4a8c72509f4a3eb15a825961c596eee9}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!add\+Version@{add\+Version}}
+\index{add\+Version@{add\+Version}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{add\+Version()}{addVersion()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_q_g_s_game_version}{Q\+G\+S\+Game\+Version}} \& Q\+G\+S\+Game\+Directory\+::add\+Version (\begin{DoxyParamCaption}\item[{const Q\+String}]{version }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_ace94804b67499a105a73d6d355ecce20}\label{class_q_g_s_game_directory_ace94804b67499a105a73d6d355ecce20}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!add\+Version@{add\+Version}}
+\index{add\+Version@{add\+Version}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{add\+Version()}{addVersion()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_q_g_s_game_version}{Q\+G\+S\+Game\+Version}} \& Q\+G\+S\+Game\+Directory\+::add\+Version (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&}]{game\+Version\+Info }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_ac7ffc5f939d69fea1a609fc516fbb96c}\label{class_q_g_s_game_directory_ac7ffc5f939d69fea1a609fc516fbb96c}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!contains\+Version@{contains\+Version}}
+\index{contains\+Version@{contains\+Version}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{contains\+Version()}{containsVersion()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool Q\+G\+S\+Game\+Directory\+::contains\+Version (\begin{DoxyParamCaption}\item[{const Q\+String \&}]{version }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a725227fce0dc089f036f90ae5b44caae}\label{class_q_g_s_game_directory_a725227fce0dc089f036f90ae5b44caae}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!contains\+Version@{contains\+Version}}
+\index{contains\+Version@{contains\+Version}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{contains\+Version()}{containsVersion()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily bool Q\+G\+S\+Game\+Directory\+::contains\+Version (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&}]{game\+Version\+Info }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_abda3cdbf34c8c6649aa85d05ee3e83d2}\label{class_q_g_s_game_directory_abda3cdbf34c8c6649aa85d05ee3e83d2}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Asset\+Index\+Json\+File@{generate\+Asset\+Index\+Json\+File}}
+\index{generate\+Asset\+Index\+Json\+File@{generate\+Asset\+Index\+Json\+File}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Asset\+Index\+Json\+File()}{generateAssetIndexJsonFile()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Q\+File $\ast$ Q\+G\+S\+Game\+Directory\+::generate\+Asset\+Index\+Json\+File (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_asset_index}{Q\+G\+S\+Asset\+Index}} \&}]{asset\+Index,  }\item[{const bool}]{with\+Absolute\+Path = {\ttfamily true} }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a36f7eea8dc5af96fea4324a0e74c8a22}\label{class_q_g_s_game_directory_a36f7eea8dc5af96fea4324a0e74c8a22}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Asset\+Index\+Json\+File@{generate\+Asset\+Index\+Json\+File}}
+\index{generate\+Asset\+Index\+Json\+File@{generate\+Asset\+Index\+Json\+File}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Asset\+Index\+Json\+File()}{generateAssetIndexJsonFile()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Q\+File $\ast$ Q\+G\+S\+Game\+Directory\+::generate\+Asset\+Index\+Json\+File (\begin{DoxyParamCaption}\item[{const Q\+String \&}]{version,  }\item[{const bool}]{with\+Absolute\+Path = {\ttfamily true} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a49e127e536b8d473578c8efcc97962e1}\label{class_q_g_s_game_directory_a49e127e536b8d473578c8efcc97962e1}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Asset\+Index\+Json\+File@{generate\+Asset\+Index\+Json\+File}}
+\index{generate\+Asset\+Index\+Json\+File@{generate\+Asset\+Index\+Json\+File}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Asset\+Index\+Json\+File()}{generateAssetIndexJsonFile()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Q\+File $\ast$ Q\+G\+S\+Game\+Directory\+::generate\+Asset\+Index\+Json\+File (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&}]{game\+Version\+Info,  }\item[{const bool}]{with\+Absolute\+Path = {\ttfamily true} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_ad26a645aa34d8bf76399c49d80aa2d75}\label{class_q_g_s_game_directory_ad26a645aa34d8bf76399c49d80aa2d75}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Asset\+Object\+File@{generate\+Asset\+Object\+File}}
+\index{generate\+Asset\+Object\+File@{generate\+Asset\+Object\+File}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Asset\+Object\+File()}{generateAssetObjectFile()}}
+{\footnotesize\ttfamily Q\+File $\ast$ Q\+G\+S\+Game\+Directory\+::generate\+Asset\+Object\+File (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_asset_object}{Q\+G\+S\+Asset\+Object}} \&}]{asset\+Object,  }\item[{const bool}]{with\+Absolute\+Path = {\ttfamily true} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a3555a3afd10b0e12e5999de3ee33db9d}\label{class_q_g_s_game_directory_a3555a3afd10b0e12e5999de3ee33db9d}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Assets\+Directory@{generate\+Assets\+Directory}}
+\index{generate\+Assets\+Directory@{generate\+Assets\+Directory}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Assets\+Directory()}{generateAssetsDirectory()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily bool Q\+G\+S\+Game\+Directory\+::generate\+Assets\+Directory (\begin{DoxyParamCaption}\item[{Q\+String}]{version,  }\item[{const \mbox{\hyperlink{class_q_g_s_asset_index}{Q\+G\+S\+Asset\+Index}} \&}]{asset\+Index,  }\item[{Q\+Dir \&}]{dir }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a7a7937b016d23546139159e3e46c595b}\label{class_q_g_s_game_directory_a7a7937b016d23546139159e3e46c595b}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Assets\+Directory@{generate\+Assets\+Directory}}
+\index{generate\+Assets\+Directory@{generate\+Assets\+Directory}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Assets\+Directory()}{generateAssetsDirectory()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Q\+Dir Q\+G\+S\+Game\+Directory\+::generate\+Assets\+Directory (\begin{DoxyParamCaption}\item[{const bool}]{with\+Absolute\+Path = {\ttfamily true} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_ae7d872759817bd28c126f53a9573fefe}\label{class_q_g_s_game_directory_ae7d872759817bd28c126f53a9573fefe}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Game\+Version\+Jar\+File@{generate\+Game\+Version\+Jar\+File}}
+\index{generate\+Game\+Version\+Jar\+File@{generate\+Game\+Version\+Jar\+File}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Game\+Version\+Jar\+File()}{generateGameVersionJarFile()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Q\+File $\ast$ Q\+G\+S\+Game\+Directory\+::generate\+Game\+Version\+Jar\+File (\begin{DoxyParamCaption}\item[{const Q\+String \&}]{version,  }\item[{const bool}]{with\+Absolute\+Path = {\ttfamily true} }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a87d6c24b0d8af77e86b02f4dd80c90ac}\label{class_q_g_s_game_directory_a87d6c24b0d8af77e86b02f4dd80c90ac}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Game\+Version\+Jar\+File@{generate\+Game\+Version\+Jar\+File}}
+\index{generate\+Game\+Version\+Jar\+File@{generate\+Game\+Version\+Jar\+File}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Game\+Version\+Jar\+File()}{generateGameVersionJarFile()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Q\+File $\ast$ Q\+G\+S\+Game\+Directory\+::generate\+Game\+Version\+Jar\+File (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&}]{game\+Version\+Info,  }\item[{const bool}]{with\+Absolute\+Path = {\ttfamily true} }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_af8ac6ae63f8eceec971be1e82e334069}\label{class_q_g_s_game_directory_af8ac6ae63f8eceec971be1e82e334069}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Game\+Version\+Json\+File@{generate\+Game\+Version\+Json\+File}}
+\index{generate\+Game\+Version\+Json\+File@{generate\+Game\+Version\+Json\+File}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Game\+Version\+Json\+File()}{generateGameVersionJsonFile()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Q\+File $\ast$ Q\+G\+S\+Game\+Directory\+::generate\+Game\+Version\+Json\+File (\begin{DoxyParamCaption}\item[{const Q\+String \&}]{version,  }\item[{const bool}]{with\+Absolute\+Path = {\ttfamily true} }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a6b933e58efa7ccdb1d84e88aa71ec6d1}\label{class_q_g_s_game_directory_a6b933e58efa7ccdb1d84e88aa71ec6d1}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Game\+Version\+Json\+File@{generate\+Game\+Version\+Json\+File}}
+\index{generate\+Game\+Version\+Json\+File@{generate\+Game\+Version\+Json\+File}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Game\+Version\+Json\+File()}{generateGameVersionJsonFile()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Q\+File $\ast$ Q\+G\+S\+Game\+Directory\+::generate\+Game\+Version\+Json\+File (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&}]{game\+Version\+Info,  }\item[{const bool}]{with\+Absolute\+Path = {\ttfamily true} }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a765b55b6e1d5359d2290c801a815efee}\label{class_q_g_s_game_directory_a765b55b6e1d5359d2290c801a815efee}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Libraries\+Directory@{generate\+Libraries\+Directory}}
+\index{generate\+Libraries\+Directory@{generate\+Libraries\+Directory}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Libraries\+Directory()}{generateLibrariesDirectory()}}
+{\footnotesize\ttfamily Q\+Dir Q\+G\+S\+Game\+Directory\+::generate\+Libraries\+Directory (\begin{DoxyParamCaption}\item[{const bool}]{with\+Absolute\+Path = {\ttfamily true} }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a6c65c56ff8dd9dddcb5fe554d8a102e6}\label{class_q_g_s_game_directory_a6c65c56ff8dd9dddcb5fe554d8a102e6}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Library\+File@{generate\+Library\+File}}
+\index{generate\+Library\+File@{generate\+Library\+File}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Library\+File()}{generateLibraryFile()}}
+{\footnotesize\ttfamily Q\+File $\ast$ Q\+G\+S\+Game\+Directory\+::generate\+Library\+File (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_library}{Q\+G\+S\+Library}} \&}]{library,  }\item[{const bool}]{with\+Absolute\+Path = {\ttfamily true} }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a1a77693d4bca0b8f0d6abe164a96eafb}\label{class_q_g_s_game_directory_a1a77693d4bca0b8f0d6abe164a96eafb}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Library\+Files@{generate\+Library\+Files}}
+\index{generate\+Library\+Files@{generate\+Library\+Files}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Library\+Files()}{generateLibraryFiles()}}
+{\footnotesize\ttfamily Q\+Vector$<$ Q\+File $\ast$ $>$ Q\+G\+S\+Game\+Directory\+::generate\+Library\+Files (\begin{DoxyParamCaption}\item[{const Q\+List$<$ \mbox{\hyperlink{class_q_g_s_library}{Q\+G\+S\+Library}} $>$ \&}]{library\+List,  }\item[{const bool}]{with\+Absolute\+Path = {\ttfamily true} }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a9350d525196a7c6f59c225f3b5703765}\label{class_q_g_s_game_directory_a9350d525196a7c6f59c225f3b5703765}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Natives\+Directory@{generate\+Natives\+Directory}}
+\index{generate\+Natives\+Directory@{generate\+Natives\+Directory}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Natives\+Directory()}{generateNativesDirectory()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Q\+Dir Q\+G\+S\+Game\+Directory\+::generate\+Natives\+Directory (\begin{DoxyParamCaption}\item[{const Q\+String \&}]{version,  }\item[{const bool}]{with\+Absolute\+Path = {\ttfamily true} }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_ac1d8970969a67c381419d82c2a417005}\label{class_q_g_s_game_directory_ac1d8970969a67c381419d82c2a417005}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Natives\+Directory@{generate\+Natives\+Directory}}
+\index{generate\+Natives\+Directory@{generate\+Natives\+Directory}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Natives\+Directory()}{generateNativesDirectory()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Q\+Dir Q\+G\+S\+Game\+Directory\+::generate\+Natives\+Directory (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&}]{game\+Version\+Info,  }\item[{const bool}]{with\+Absolute\+Path = {\ttfamily true} }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a034a40c287c1bb2b3ec6ecc42e97b59b}\label{class_q_g_s_game_directory_a034a40c287c1bb2b3ec6ecc42e97b59b}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!generate\+Versions\+Directory@{generate\+Versions\+Directory}}
+\index{generate\+Versions\+Directory@{generate\+Versions\+Directory}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{generate\+Versions\+Directory()}{generateVersionsDirectory()}}
+{\footnotesize\ttfamily Q\+Dir Q\+G\+S\+Game\+Directory\+::generate\+Versions\+Directory (\begin{DoxyParamCaption}\item[{const bool}]{with\+Absolute\+Path = {\ttfamily true} }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a21dd5c0148e53b411fb34454e420c3b2}\label{class_q_g_s_game_directory_a21dd5c0148e53b411fb34454e420c3b2}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!get\+Base\+Dir@{get\+Base\+Dir}}
+\index{get\+Base\+Dir@{get\+Base\+Dir}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{get\+Base\+Dir()}{getBaseDir()}}
+{\footnotesize\ttfamily Q\+Dir Q\+G\+S\+Game\+Directory\+::get\+Base\+Dir (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a5bc0793dc5f9475e80c68842f30b24f9}\label{class_q_g_s_game_directory_a5bc0793dc5f9475e80c68842f30b24f9}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!get\+Version@{get\+Version}}
+\index{get\+Version@{get\+Version}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{get\+Version()}{getVersion()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_q_g_s_game_version}{Q\+G\+S\+Game\+Version}} \& Q\+G\+S\+Game\+Directory\+::get\+Version (\begin{DoxyParamCaption}\item[{const Q\+String \&}]{version }\end{DoxyParamCaption})}
+
+
+
+Q\+G\+S\+Game\+Directoryππ‘Ï∫Ø ˝ 
+
+
+\begin{DoxyParams}{ÂèÇÊï∞}
+{\em base\+Dir} & ”Œœ∑ƒø¬º\\
+\hline
+{\em parent} & ∏∏∂‘œÛ\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{ËøîÂõû}
+
+\end{DoxyReturn}
+
+\begin{DoxyRetVals}{ËøîÂõûÂÄº}
+{\em } & \\
+\hline
+\end{DoxyRetVals}
+\mbox{\Hypertarget{class_q_g_s_game_directory_a070fd0a7126b2bd5e9b58ed447c53b67}\label{class_q_g_s_game_directory_a070fd0a7126b2bd5e9b58ed447c53b67}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!get\+Version@{get\+Version}}
+\index{get\+Version@{get\+Version}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{get\+Version()}{getVersion()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_q_g_s_game_version}{Q\+G\+S\+Game\+Version}} \& Q\+G\+S\+Game\+Directory\+::get\+Version (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_game_version_info}{Q\+G\+S\+Game\+Version\+Info}} \&}]{game\+Version\+Info }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a92a8780e4e1a28b379c1056427a28188}\label{class_q_g_s_game_directory_a92a8780e4e1a28b379c1056427a28188}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!operator=@{operator=}}
+\index{operator=@{operator=}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_q_g_s_game_directory}{Q\+G\+S\+Game\+Directory}}\& Q\+G\+S\+Game\+Directory\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_game_directory}{Q\+G\+S\+Game\+Directory}} \&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a1dfa3ea4aef78249e2e13f0dda8087dc}\label{class_q_g_s_game_directory_a1dfa3ea4aef78249e2e13f0dda8087dc}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!operator=@{operator=}}
+\index{operator=@{operator=}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_q_g_s_game_directory}{Q\+G\+S\+Game\+Directory}}\& Q\+G\+S\+Game\+Directory\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_g_s_game_directory}{Q\+G\+S\+Game\+Directory}} \&\&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [default]}}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a862cadde0ec810cb444346fcf2f75da4}\label{class_q_g_s_game_directory_a862cadde0ec810cb444346fcf2f75da4}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!prase\+Library\+Name@{prase\+Library\+Name}}
+\index{prase\+Library\+Name@{prase\+Library\+Name}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{prase\+Library\+Name()}{praseLibraryName()}}
+{\footnotesize\ttfamily Q\+String Q\+G\+S\+Game\+Directory\+::prase\+Library\+Name (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_library}{Q\+G\+S\+Library}} \&}]{library }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_q_g_s_game_directory_a05d4f173c565e05d9f271a31ea6a82e6}\label{class_q_g_s_game_directory_a05d4f173c565e05d9f271a31ea6a82e6}} 
+\index{Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}!prase\+Name@{prase\+Name}}
+\index{prase\+Name@{prase\+Name}!Q\+G\+S\+Game\+Directory@{Q\+G\+S\+Game\+Directory}}
+\subsubsection{\texorpdfstring{prase\+Name()}{praseName()}}
+{\footnotesize\ttfamily Q\+String Q\+G\+S\+Game\+Directory\+::prase\+Name (\begin{DoxyParamCaption}\item[{const Q\+String \&}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+ËØ•Á±ªÁöÑÊñáÊ°£Áî±‰ª•‰∏ãÊñá‰ª∂ÁîüÊàê\+:\begin{DoxyCompactItemize}
+\item 
+F\+:/\+Projects/\+Git/\+Q\+Getting\+Started/\+Q\+Getting\+Started/\+Launcher/\mbox{\hyperlink{_q_g_s_game_directory_8h}{Q\+G\+S\+Game\+Directory.\+h}}\item 
+F\+:/\+Projects/\+Git/\+Q\+Getting\+Started/\+Q\+Getting\+Started/\+Launcher/\mbox{\hyperlink{_q_g_s_game_directory_8cpp}{Q\+G\+S\+Game\+Directory.\+cpp}}\end{DoxyCompactItemize}

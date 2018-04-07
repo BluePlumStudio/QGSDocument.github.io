@@ -1,0 +1,200 @@
+\hypertarget{class_q_g_s_i_builder}{}\section{Q\+G\+S\+I\+Builder类 参考}
+\label{class_q_g_s_i_builder}\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+
+
+{\ttfamily \#include $<$Q\+G\+S\+I\+Builder.\+h$>$}
+
+
+
+类 Q\+G\+S\+I\+Builder 继承关系图\+:
+% FIG 0
+
+
+Q\+G\+S\+I\+Builder 的协作图\+:
+% FIG 1
+\subsection*{信号}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_q_g_s_i_builder_a95244ad7dbf6d0234ea1cf49c58785e3}{download\+Task\+Started}} (\mbox{\hyperlink{class_q_g_s_download_task}{Q\+G\+S\+Download\+Task}} $\ast$task)
+\item 
+void \mbox{\hyperlink{class_q_g_s_i_builder_acb9d50b1936cf4d2217229f0aecc2283}{download\+Task\+Finished}} (\mbox{\hyperlink{class_q_g_s_download_task}{Q\+G\+S\+Download\+Task}} $\ast$task)
+\item 
+void \mbox{\hyperlink{class_q_g_s_i_builder_a9fabcd4fbd11dc08891c0b100495869c}{download\+Task\+Stoped}} (\mbox{\hyperlink{class_q_g_s_download_task}{Q\+G\+S\+Download\+Task}} $\ast$task)
+\item 
+void \mbox{\hyperlink{class_q_g_s_i_builder_a5db21e1acb0ab56bcd72bc1a31311f02}{download\+Task\+Canceled}} (\mbox{\hyperlink{class_q_g_s_download_task}{Q\+G\+S\+Download\+Task}} $\ast$task)
+\item 
+void \mbox{\hyperlink{class_q_g_s_i_builder_a8df86a040c261191047f9ee5b2266323}{download\+Task\+Download\+Progress}} (qint64 bytes\+Received, qint64 bytes\+Total, \mbox{\hyperlink{class_q_g_s_download_task}{Q\+G\+S\+Download\+Task}} $\ast$task)
+\item 
+void \mbox{\hyperlink{class_q_g_s_i_builder_a9f8aa4e00ba1d459c5698579b8292b29}{download\+Task\+Download\+Error}} (\mbox{\hyperlink{class_q_g_s_network_error}{Q\+G\+S\+Network\+Error}} \mbox{\hyperlink{class_q_g_s_task_a0ac4592b48e8de87af4f92c4a98a1763}{error}}, \mbox{\hyperlink{class_q_g_s_download_task}{Q\+G\+S\+Download\+Task}} $\ast$task)
+\item 
+void \mbox{\hyperlink{class_q_g_s_i_builder_ac1d135bb45a9ecf1dc7a1cd16074415c}{download\+Task\+Error}} (\mbox{\hyperlink{class_q_g_s_download_task}{Q\+G\+S\+Download\+Task}} $\ast$task)
+\end{DoxyCompactItemize}
+\subsection*{Public 成员函数}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_q_g_s_i_builder_ad57c5cb91a85051a4aafb228e1c1f572}{Q\+G\+S\+I\+Builder}} (Q\+Object $\ast$parent=nullptr)
+\item 
+\mbox{\hyperlink{class_q_g_s_i_builder_a9d7cb4aa8b741aa460a6c7f3daca3385}{Q\+G\+S\+I\+Builder}} (const \mbox{\hyperlink{class_q_g_s_i_builder}{Q\+G\+S\+I\+Builder}} \&right)=delete
+\item 
+\mbox{\hyperlink{class_q_g_s_i_builder_a41746b6265af2e362fda407909bb87a3}{Q\+G\+S\+I\+Builder}} (\mbox{\hyperlink{class_q_g_s_i_builder}{Q\+G\+S\+I\+Builder}} \&\&right)=delete
+\item 
+\mbox{\hyperlink{class_q_g_s_i_builder}{Q\+G\+S\+I\+Builder}} \& \mbox{\hyperlink{class_q_g_s_i_builder_afcf032510d95419640059ca926e0fcdb}{operator=}} (const \mbox{\hyperlink{class_q_g_s_i_builder}{Q\+G\+S\+I\+Builder}} \&right)=delete
+\item 
+\mbox{\hyperlink{class_q_g_s_i_builder}{Q\+G\+S\+I\+Builder}} \& \mbox{\hyperlink{class_q_g_s_i_builder_aeda0f19abf12d6978d1f0c31f1e2d9ec}{operator=}} (\mbox{\hyperlink{class_q_g_s_i_builder}{Q\+G\+S\+I\+Builder}} \&\&right)=delete
+\item 
+virtual \mbox{\hyperlink{class_q_g_s_i_builder_a3829ba388a3631eacb7c7e463951e188}{$\sim$\+Q\+G\+S\+I\+Builder}} ()
+\item 
+Q\+String \mbox{\hyperlink{class_q_g_s_i_builder_ad6b8a698803460fc24a565bf090f0b74}{get\+Last\+Error\+String}} ()
+\end{DoxyCompactItemize}
+\subsection*{静态 Public 成员函数}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_q_g_s_thread_pool}{Q\+G\+S\+Thread\+Pool}} \& \mbox{\hyperlink{class_q_g_s_i_builder_acbd6b48827bfde420151366b4e74be5c}{get\+Thread\+Pool}} ()
+\end{DoxyCompactItemize}
+\subsection*{Protected 槽}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_q_g_s_i_builder_aaef90ccaf1d131ec8afd6ff722996f8b}{set\+Last\+Error\+String}} (Q\+String last\+Error\+String)
+\end{DoxyCompactItemize}
+\subsection*{Protected 属性}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Mutex \mbox{\hyperlink{class_q_g_s_i_builder_a0314aaac341e9b7ab5d903c8a311a0ec}{m\+Mutex}}
+\item 
+Q\+String \mbox{\hyperlink{class_q_g_s_i_builder_a14d6b51e0e1c3ca2f37da6a94c7df016}{m\+Last\+Error\+String}}
+\end{DoxyCompactItemize}
+\subsection*{静态 Protected 属性}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_q_g_s_thread_pool}{Q\+G\+S\+Thread\+Pool}} \mbox{\hyperlink{class_q_g_s_i_builder_ad4d96f8deb3e6419b333eb228ec5e9f4}{m\+Thread\+Pool}}
+\end{DoxyCompactItemize}
+\subsection*{额外继承的成员函数}
+
+
+\subsection{构造及析构函数说明}
+\mbox{\Hypertarget{class_q_g_s_i_builder_ad57c5cb91a85051a4aafb228e1c1f572}\label{class_q_g_s_i_builder_ad57c5cb91a85051a4aafb228e1c1f572}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{Q\+G\+S\+I\+Builder()}{QGSIBuilder()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Q\+G\+S\+I\+Builder\+::\+Q\+G\+S\+I\+Builder (\begin{DoxyParamCaption}\item[{Q\+Object $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_a9d7cb4aa8b741aa460a6c7f3daca3385}\label{class_q_g_s_i_builder_a9d7cb4aa8b741aa460a6c7f3daca3385}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{Q\+G\+S\+I\+Builder()}{QGSIBuilder()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Q\+G\+S\+I\+Builder\+::\+Q\+G\+S\+I\+Builder (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_i_builder}{Q\+G\+S\+I\+Builder}} \&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_a41746b6265af2e362fda407909bb87a3}\label{class_q_g_s_i_builder_a41746b6265af2e362fda407909bb87a3}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{Q\+G\+S\+I\+Builder()}{QGSIBuilder()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Q\+G\+S\+I\+Builder\+::\+Q\+G\+S\+I\+Builder (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_g_s_i_builder}{Q\+G\+S\+I\+Builder}} \&\&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_a3829ba388a3631eacb7c7e463951e188}\label{class_q_g_s_i_builder_a3829ba388a3631eacb7c7e463951e188}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!````~Q\+G\+S\+I\+Builder@{$\sim$\+Q\+G\+S\+I\+Builder}}
+\index{````~Q\+G\+S\+I\+Builder@{$\sim$\+Q\+G\+S\+I\+Builder}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{$\sim$\+Q\+G\+S\+I\+Builder()}{~QGSIBuilder()}}
+{\footnotesize\ttfamily Q\+G\+S\+I\+Builder\+::$\sim$\+Q\+G\+S\+I\+Builder (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\subsection{成员函数说明}
+\mbox{\Hypertarget{class_q_g_s_i_builder_a5db21e1acb0ab56bcd72bc1a31311f02}\label{class_q_g_s_i_builder_a5db21e1acb0ab56bcd72bc1a31311f02}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!download\+Task\+Canceled@{download\+Task\+Canceled}}
+\index{download\+Task\+Canceled@{download\+Task\+Canceled}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{download\+Task\+Canceled}{downloadTaskCanceled}}
+{\footnotesize\ttfamily void Q\+G\+S\+I\+Builder\+::download\+Task\+Canceled (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_g_s_download_task}{Q\+G\+S\+Download\+Task}} $\ast$}]{task }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_a9f8aa4e00ba1d459c5698579b8292b29}\label{class_q_g_s_i_builder_a9f8aa4e00ba1d459c5698579b8292b29}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!download\+Task\+Download\+Error@{download\+Task\+Download\+Error}}
+\index{download\+Task\+Download\+Error@{download\+Task\+Download\+Error}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{download\+Task\+Download\+Error}{downloadTaskDownloadError}}
+{\footnotesize\ttfamily void Q\+G\+S\+I\+Builder\+::download\+Task\+Download\+Error (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_g_s_network_error}{Q\+G\+S\+Network\+Error}}}]{error,  }\item[{\mbox{\hyperlink{class_q_g_s_download_task}{Q\+G\+S\+Download\+Task}} $\ast$}]{task }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_a8df86a040c261191047f9ee5b2266323}\label{class_q_g_s_i_builder_a8df86a040c261191047f9ee5b2266323}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!download\+Task\+Download\+Progress@{download\+Task\+Download\+Progress}}
+\index{download\+Task\+Download\+Progress@{download\+Task\+Download\+Progress}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{download\+Task\+Download\+Progress}{downloadTaskDownloadProgress}}
+{\footnotesize\ttfamily void Q\+G\+S\+I\+Builder\+::download\+Task\+Download\+Progress (\begin{DoxyParamCaption}\item[{qint64}]{bytes\+Received,  }\item[{qint64}]{bytes\+Total,  }\item[{\mbox{\hyperlink{class_q_g_s_download_task}{Q\+G\+S\+Download\+Task}} $\ast$}]{task }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_ac1d135bb45a9ecf1dc7a1cd16074415c}\label{class_q_g_s_i_builder_ac1d135bb45a9ecf1dc7a1cd16074415c}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!download\+Task\+Error@{download\+Task\+Error}}
+\index{download\+Task\+Error@{download\+Task\+Error}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{download\+Task\+Error}{downloadTaskError}}
+{\footnotesize\ttfamily void Q\+G\+S\+I\+Builder\+::download\+Task\+Error (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_g_s_download_task}{Q\+G\+S\+Download\+Task}} $\ast$}]{task }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_acb9d50b1936cf4d2217229f0aecc2283}\label{class_q_g_s_i_builder_acb9d50b1936cf4d2217229f0aecc2283}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!download\+Task\+Finished@{download\+Task\+Finished}}
+\index{download\+Task\+Finished@{download\+Task\+Finished}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{download\+Task\+Finished}{downloadTaskFinished}}
+{\footnotesize\ttfamily void Q\+G\+S\+I\+Builder\+::download\+Task\+Finished (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_g_s_download_task}{Q\+G\+S\+Download\+Task}} $\ast$}]{task }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_a95244ad7dbf6d0234ea1cf49c58785e3}\label{class_q_g_s_i_builder_a95244ad7dbf6d0234ea1cf49c58785e3}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!download\+Task\+Started@{download\+Task\+Started}}
+\index{download\+Task\+Started@{download\+Task\+Started}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{download\+Task\+Started}{downloadTaskStarted}}
+{\footnotesize\ttfamily void Q\+G\+S\+I\+Builder\+::download\+Task\+Started (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_g_s_download_task}{Q\+G\+S\+Download\+Task}} $\ast$}]{task }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_a9fabcd4fbd11dc08891c0b100495869c}\label{class_q_g_s_i_builder_a9fabcd4fbd11dc08891c0b100495869c}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!download\+Task\+Stoped@{download\+Task\+Stoped}}
+\index{download\+Task\+Stoped@{download\+Task\+Stoped}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{download\+Task\+Stoped}{downloadTaskStoped}}
+{\footnotesize\ttfamily void Q\+G\+S\+I\+Builder\+::download\+Task\+Stoped (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_g_s_download_task}{Q\+G\+S\+Download\+Task}} $\ast$}]{task }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_ad6b8a698803460fc24a565bf090f0b74}\label{class_q_g_s_i_builder_ad6b8a698803460fc24a565bf090f0b74}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!get\+Last\+Error\+String@{get\+Last\+Error\+String}}
+\index{get\+Last\+Error\+String@{get\+Last\+Error\+String}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{get\+Last\+Error\+String()}{getLastErrorString()}}
+{\footnotesize\ttfamily Q\+String Q\+G\+S\+I\+Builder\+::get\+Last\+Error\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_acbd6b48827bfde420151366b4e74be5c}\label{class_q_g_s_i_builder_acbd6b48827bfde420151366b4e74be5c}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!get\+Thread\+Pool@{get\+Thread\+Pool}}
+\index{get\+Thread\+Pool@{get\+Thread\+Pool}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{get\+Thread\+Pool()}{getThreadPool()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_q_g_s_thread_pool}{Q\+G\+S\+Thread\+Pool}} \& Q\+G\+S\+I\+Builder\+::get\+Thread\+Pool (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_afcf032510d95419640059ca926e0fcdb}\label{class_q_g_s_i_builder_afcf032510d95419640059ca926e0fcdb}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!operator=@{operator=}}
+\index{operator=@{operator=}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_q_g_s_i_builder}{Q\+G\+S\+I\+Builder}}\& Q\+G\+S\+I\+Builder\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_q_g_s_i_builder}{Q\+G\+S\+I\+Builder}} \&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_aeda0f19abf12d6978d1f0c31f1e2d9ec}\label{class_q_g_s_i_builder_aeda0f19abf12d6978d1f0c31f1e2d9ec}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!operator=@{operator=}}
+\index{operator=@{operator=}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_q_g_s_i_builder}{Q\+G\+S\+I\+Builder}}\& Q\+G\+S\+I\+Builder\+::operator= (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_q_g_s_i_builder}{Q\+G\+S\+I\+Builder}} \&\&}]{right }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_aaef90ccaf1d131ec8afd6ff722996f8b}\label{class_q_g_s_i_builder_aaef90ccaf1d131ec8afd6ff722996f8b}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!set\+Last\+Error\+String@{set\+Last\+Error\+String}}
+\index{set\+Last\+Error\+String@{set\+Last\+Error\+String}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{set\+Last\+Error\+String}{setLastErrorString}}
+{\footnotesize\ttfamily void Q\+G\+S\+I\+Builder\+::set\+Last\+Error\+String (\begin{DoxyParamCaption}\item[{Q\+String}]{last\+Error\+String }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [slot]}}
+
+
+
+\subsection{类成员变量说明}
+\mbox{\Hypertarget{class_q_g_s_i_builder_a14d6b51e0e1c3ca2f37da6a94c7df016}\label{class_q_g_s_i_builder_a14d6b51e0e1c3ca2f37da6a94c7df016}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!m\+Last\+Error\+String@{m\+Last\+Error\+String}}
+\index{m\+Last\+Error\+String@{m\+Last\+Error\+String}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{m\+Last\+Error\+String}{mLastErrorString}}
+{\footnotesize\ttfamily Q\+String Q\+G\+S\+I\+Builder\+::m\+Last\+Error\+String\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_a0314aaac341e9b7ab5d903c8a311a0ec}\label{class_q_g_s_i_builder_a0314aaac341e9b7ab5d903c8a311a0ec}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!m\+Mutex@{m\+Mutex}}
+\index{m\+Mutex@{m\+Mutex}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{m\+Mutex}{mMutex}}
+{\footnotesize\ttfamily Q\+Mutex Q\+G\+S\+I\+Builder\+::m\+Mutex\hspace{0.3cm}{\ttfamily [protected]}}
+
+\mbox{\Hypertarget{class_q_g_s_i_builder_ad4d96f8deb3e6419b333eb228ec5e9f4}\label{class_q_g_s_i_builder_ad4d96f8deb3e6419b333eb228ec5e9f4}} 
+\index{Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}!m\+Thread\+Pool@{m\+Thread\+Pool}}
+\index{m\+Thread\+Pool@{m\+Thread\+Pool}!Q\+G\+S\+I\+Builder@{Q\+G\+S\+I\+Builder}}
+\subsubsection{\texorpdfstring{m\+Thread\+Pool}{mThreadPool}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_q_g_s_thread_pool}{Q\+G\+S\+Thread\+Pool}} Q\+G\+S\+I\+Builder\+::m\+Thread\+Pool\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [protected]}}
+
+
+
+该类的文档由以下文件生成\+:\begin{DoxyCompactItemize}
+\item 
+F\+:/\+Projects/\+Git/\+Q\+Getting\+Started/\+Q\+Getting\+Started/\+Builder/\mbox{\hyperlink{_q_g_s_i_builder_8h}{Q\+G\+S\+I\+Builder.\+h}}\item 
+F\+:/\+Projects/\+Git/\+Q\+Getting\+Started/\+Q\+Getting\+Started/\+Builder/\mbox{\hyperlink{_q_g_s_i_builder_8cpp}{Q\+G\+S\+I\+Builder.\+cpp}}\end{DoxyCompactItemize}

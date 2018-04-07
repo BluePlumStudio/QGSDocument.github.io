@@ -1,0 +1,41 @@
+digraph "F:/Projects/Git/QGettingStarted/QGettingStarted/Util/QGSFileTools.cpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Util/QGSFileTools.cpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid"];
+  Node1 [label="QDir",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="QFileInfoList",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="QCoreApplication",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="QSettings",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="QGSFileTools.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_file_tools_8h.html"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid"];
+  Node6 [label="QStringList",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+  Node7 [label="QObject",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid"];
+  Node8 [label="zlib/zlib.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node9 [color="midnightblue",fontsize="10",style="solid"];
+  Node9 [label="zlib/zip.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node10 [color="midnightblue",fontsize="10",style="solid"];
+  Node10 [label="zlib/unzip.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node11 [color="midnightblue",fontsize="10",style="solid"];
+  Node11 [label="zlib/crypt.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node12 [color="midnightblue",fontsize="10",style="solid"];
+  Node12 [label="zlib/ioapi.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node13 [color="midnightblue",fontsize="10",style="solid"];
+  Node13 [label="zlib/iowin32.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node14 [color="midnightblue",fontsize="10",style="solid"];
+  Node14 [label="zlib/mztools.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node15 [color="midnightblue",fontsize="10",style="solid"];
+  Node15 [label="zlib/zconf.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node16 [color="midnightblue",fontsize="10",style="solid"];
+  Node16 [label="QGSOperatingSystem.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_operating_system_8h.html"];
+  Node16 -> Node17 [color="midnightblue",fontsize="10",style="solid"];
+  Node17 [label="QString",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node16 -> Node7 [color="midnightblue",fontsize="10",style="solid"];
+}
