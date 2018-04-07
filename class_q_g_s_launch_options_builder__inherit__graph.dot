@@ -4,5 +4,5 @@ digraph "QGSLaunchOptionsBuilder"
   node [fontname="Helvetica",fontsize="10",shape=record];
   Node0 [label="QGSLaunchOptionsBuilder",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node1 [label="QGSILaunchOptionsBuilder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_i_launch_options_builder.html"];
+  Node1 [label="QGSILaunchOptionsBuilder",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_i_launch_options_builder.html",tooltip="启动选项建造者（抽象） "];
 }
