@@ -1,0 +1,10 @@
+digraph "F:/Projects/Git/QGettingStarted" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_92670852bab087901dd885087216d323 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_92670852bab087901dd885087216d323.html"];
+    dir_92670852bab087901dd885087216d323 [shape=plaintext label="QGettingStarted"];
+    dir_3952c08c86d2ef0fb0d3de6c9284875b [shape=box label="QGettingStarted" color="red" fillcolor="white" style="filled" URL="dir_3952c08c86d2ef0fb0d3de6c9284875b.html"];
+  }
+}

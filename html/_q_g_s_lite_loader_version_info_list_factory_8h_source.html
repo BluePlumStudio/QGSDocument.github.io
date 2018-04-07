@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>QGettingStarted-Document: F:/Projects/Git/QGettingStarted/QGettingStarted/GameVersion/QGSLiteLoaderVersionInfoListFactory.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">QGettingStarted-Document
+   &#160;<span id="projectnumber">0.1.0</span>
+   </div>
+   <div id="projectbrief">Minecraft launcher core QGettingStarted document.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_92670852bab087901dd885087216d323.html">QGettingStarted</a></li><li class="navelem"><a class="el" href="dir_3952c08c86d2ef0fb0d3de6c9284875b.html">QGettingStarted</a></li><li class="navelem"><a class="el" href="dir_b842639159e5a25bae7c135b5acfa408.html">GameVersion</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">QGSLiteLoaderVersionInfoListFactory.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_q_g_s_lite_loader_version_info_list_factory_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;QObject&gt;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;QByteArray&gt;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QJsonArray&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;QJsonDocument&gt;</span></div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;QJsonObject&gt;</span></div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_q_g_s_lite_loader_version_info_list_8h.html">QGSLiteLoaderVersionInfoList.h</a>&quot;</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_q_g_s_lite_loader_version_info_list_factory.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_q_g_s_lite_loader_version_info_list_factory.html">QGSLiteLoaderVersionInfoListFactory</a> :<span class="keyword">public</span> QObject</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="class_q_g_s_lite_loader_version_info_list_factory.html#a5ecfb33c4f68498ea5d7f64edca628b3">QGSLiteLoaderVersionInfoListFactory</a>(QObject * parent = <span class="keyword">nullptr</span>);</div><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="class_q_g_s_lite_loader_version_info_list_factory.html#a5ecfb33c4f68498ea5d7f64edca628b3">QGSLiteLoaderVersionInfoListFactory</a>(<span class="keyword">const</span> <a class="code" href="class_q_g_s_lite_loader_version_info_list_factory.html">QGSLiteLoaderVersionInfoListFactory</a> &amp; right) = <span class="keyword">delete</span>;</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="class_q_g_s_lite_loader_version_info_list_factory.html#a5ecfb33c4f68498ea5d7f64edca628b3">QGSLiteLoaderVersionInfoListFactory</a>(<a class="code" href="class_q_g_s_lite_loader_version_info_list_factory.html">QGSLiteLoaderVersionInfoListFactory</a> &amp;&amp; right) = <span class="keyword">delete</span>;</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="class_q_g_s_lite_loader_version_info_list_factory.html">QGSLiteLoaderVersionInfoListFactory</a> &amp; <a class="code" href="class_q_g_s_lite_loader_version_info_list_factory.html#ac05cbb2d49e7f805563ccf4165914096">operator=</a>(<span class="keyword">const</span> <a class="code" href="class_q_g_s_lite_loader_version_info_list_factory.html">QGSLiteLoaderVersionInfoListFactory</a> &amp; right) = <span class="keyword">delete</span>;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="class_q_g_s_lite_loader_version_info_list_factory.html">QGSLiteLoaderVersionInfoListFactory</a> &amp; <a class="code" href="class_q_g_s_lite_loader_version_info_list_factory.html#ac05cbb2d49e7f805563ccf4165914096">operator=</a>(<a class="code" href="class_q_g_s_lite_loader_version_info_list_factory.html">QGSLiteLoaderVersionInfoListFactory</a> &amp;&amp; right) = <span class="keyword">delete</span>;</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="class_q_g_s_lite_loader_version_info_list_factory.html#ab6ddaa0d24c6cacc4fefad90a12f28d4">~QGSLiteLoaderVersionInfoListFactory</a>();</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="class_q_g_s_lite_loader_version_info_list.html">QGSLiteLoaderVersionInfoList</a> <a class="code" href="class_q_g_s_lite_loader_version_info_list_factory.html#af67f1fd46e15e0cdfa0e2ae61079eaf3">createLiteLoaderVersionInfoList</a>(<span class="keyword">const</span> QByteArray &amp; jsonData);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">inline</span> <a class="code" href="class_q_g_s_library.html">QGSLibrary</a> praseLiteLoaderVersionMetaLibrary(<span class="keyword">const</span> QJsonObject &amp; <span class="keywordtype">object</span>)<span class="keyword">const</span>;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keyword">inline</span> <a class="code" href="class_q_g_s_lite_loader_version_meta.html">QGSLiteLoaderVersionMeta</a> praseLiteLoaderVersionMeta(<span class="keyword">const</span> QJsonObject &amp; <span class="keywordtype">object</span>);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;};</div><div class="ttc" id="class_q_g_s_lite_loader_version_info_list_factory_html_ac05cbb2d49e7f805563ccf4165914096"><div class="ttname"><a href="class_q_g_s_lite_loader_version_info_list_factory.html#ac05cbb2d49e7f805563ccf4165914096">QGSLiteLoaderVersionInfoListFactory::operator=</a></div><div class="ttdeci">QGSLiteLoaderVersionInfoListFactory &amp; operator=(const QGSLiteLoaderVersionInfoListFactory &amp;right)=delete</div></div>
+<div class="ttc" id="class_q_g_s_lite_loader_version_info_list_factory_html_af67f1fd46e15e0cdfa0e2ae61079eaf3"><div class="ttname"><a href="class_q_g_s_lite_loader_version_info_list_factory.html#af67f1fd46e15e0cdfa0e2ae61079eaf3">QGSLiteLoaderVersionInfoListFactory::createLiteLoaderVersionInfoList</a></div><div class="ttdeci">QGSLiteLoaderVersionInfoList createLiteLoaderVersionInfoList(const QByteArray &amp;jsonData)</div><div class="ttdef"><b>Definition:</b> QGSLiteLoaderVersionInfoListFactory.cpp:15</div></div>
+<div class="ttc" id="class_q_g_s_lite_loader_version_meta_html"><div class="ttname"><a href="class_q_g_s_lite_loader_version_meta.html">QGSLiteLoaderVersionMeta</a></div><div class="ttdef"><b>Definition:</b> QGSLiteLoaderVersionMeta.h:9</div></div>
+<div class="ttc" id="_q_g_s_lite_loader_version_info_list_8h_html"><div class="ttname"><a href="_q_g_s_lite_loader_version_info_list_8h.html">QGSLiteLoaderVersionInfoList.h</a></div></div>
+<div class="ttc" id="class_q_g_s_lite_loader_version_info_list_factory_html"><div class="ttname"><a href="class_q_g_s_lite_loader_version_info_list_factory.html">QGSLiteLoaderVersionInfoListFactory</a></div><div class="ttdef"><b>Definition:</b> QGSLiteLoaderVersionInfoListFactory.h:11</div></div>
+<div class="ttc" id="class_q_g_s_library_html"><div class="ttname"><a href="class_q_g_s_library.html">QGSLibrary</a></div><div class="ttdef"><b>Definition:</b> QGSLibrary.h:9</div></div>
+<div class="ttc" id="class_q_g_s_lite_loader_version_info_list_factory_html_ab6ddaa0d24c6cacc4fefad90a12f28d4"><div class="ttname"><a href="class_q_g_s_lite_loader_version_info_list_factory.html#ab6ddaa0d24c6cacc4fefad90a12f28d4">QGSLiteLoaderVersionInfoListFactory::~QGSLiteLoaderVersionInfoListFactory</a></div><div class="ttdeci">~QGSLiteLoaderVersionInfoListFactory()</div><div class="ttdef"><b>Definition:</b> QGSLiteLoaderVersionInfoListFactory.cpp:11</div></div>
+<div class="ttc" id="class_q_g_s_lite_loader_version_info_list_factory_html_a5ecfb33c4f68498ea5d7f64edca628b3"><div class="ttname"><a href="class_q_g_s_lite_loader_version_info_list_factory.html#a5ecfb33c4f68498ea5d7f64edca628b3">QGSLiteLoaderVersionInfoListFactory::QGSLiteLoaderVersionInfoListFactory</a></div><div class="ttdeci">QGSLiteLoaderVersionInfoListFactory(QObject *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> QGSLiteLoaderVersionInfoListFactory.cpp:7</div></div>
+<div class="ttc" id="class_q_g_s_lite_loader_version_info_list_html"><div class="ttname"><a href="class_q_g_s_lite_loader_version_info_list.html">QGSLiteLoaderVersionInfoList</a></div><div class="ttdef"><b>Definition:</b> QGSLiteLoaderVersionInfoList.h:13</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

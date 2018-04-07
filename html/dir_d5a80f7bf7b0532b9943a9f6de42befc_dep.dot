@@ -1,0 +1,18 @@
+digraph "F:/Projects/Git/QGettingStarted/QGettingStarted/Launcher" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_3952c08c86d2ef0fb0d3de6c9284875b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="QGettingStarted" fontname="Helvetica", fontsize="10", URL="dir_3952c08c86d2ef0fb0d3de6c9284875b.html"]
+  dir_d5a80f7bf7b0532b9943a9f6de42befc [shape=box, label="Launcher", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_d5a80f7bf7b0532b9943a9f6de42befc.html"];
+  }
+  dir_0850f1569e1404a71d6f767bc94671d0 [shape=box label="Util" URL="dir_0850f1569e1404a71d6f767bc94671d0.html"];
+  dir_b842639159e5a25bae7c135b5acfa408 [shape=box label="GameVersion" URL="dir_b842639159e5a25bae7c135b5acfa408.html"];
+  dir_e989e037040d9479a6039d4a2a8099ef [shape=box label="LaunchOptions" URL="dir_e989e037040d9479a6039d4a2a8099ef.html"];
+  dir_b842639159e5a25bae7c135b5acfa408->dir_0850f1569e1404a71d6f767bc94671d0 [headlabel="30", labeldistance=1.5 headhref="dir_000004_000007.html"];
+  dir_d5a80f7bf7b0532b9943a9f6de42befc->dir_0850f1569e1404a71d6f767bc94671d0 [headlabel="6", labeldistance=1.5 headhref="dir_000005_000007.html"];
+  dir_d5a80f7bf7b0532b9943a9f6de42befc->dir_b842639159e5a25bae7c135b5acfa408 [headlabel="6", labeldistance=1.5 headhref="dir_000005_000004.html"];
+  dir_d5a80f7bf7b0532b9943a9f6de42befc->dir_e989e037040d9479a6039d4a2a8099ef [headlabel="1", labeldistance=1.5 headhref="dir_000005_000006.html"];
+  dir_e989e037040d9479a6039d4a2a8099ef->dir_0850f1569e1404a71d6f767bc94671d0 [headlabel="5", labeldistance=1.5 headhref="dir_000006_000007.html"];
+  dir_e989e037040d9479a6039d4a2a8099ef->dir_d5a80f7bf7b0532b9943a9f6de42befc [headlabel="1", labeldistance=1.5 headhref="dir_000006_000005.html"];
+}
