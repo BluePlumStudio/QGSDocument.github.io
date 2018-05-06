@@ -7,6 +7,4 @@ digraph "F:/Projects/Git/QGettingStarted/QGettingStarted/Launcher/QGSLauncher.h"
   Node42 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Launcher/QGSLauncher.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_launcher_8cpp.html"];
   Node41 -> Node43 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node43 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/QGettingStarted.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_getting_started_8h.html"];
-  Node43 -> Node44 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node44 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html"];
 }

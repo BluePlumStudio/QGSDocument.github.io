@@ -7,11 +7,11 @@ digraph "F:/Projects/Git/QGettingStarted/QGettingStarted/Builder" {
   dir_a70188fb1c4d20845017b4842b7049b7 [shape=box, label="Builder", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a70188fb1c4d20845017b4842b7049b7.html"];
   }
   dir_1f3a28586caa829ed57e3fa0b0b05885 [shape=box label="Download" URL="dir_1f3a28586caa829ed57e3fa0b0b05885.html"];
-  dir_0850f1569e1404a71d6f767bc94671d0 [shape=box label="Util" URL="dir_0850f1569e1404a71d6f767bc94671d0.html"];
+  dir_0850f1569e1404a71d6f767bc94671d0 [shape=box label="Util" fillcolor="white" style="filled" color="red" URL="dir_0850f1569e1404a71d6f767bc94671d0.html"];
   dir_b842639159e5a25bae7c135b5acfa408 [shape=box label="GameVersion" URL="dir_b842639159e5a25bae7c135b5acfa408.html"];
   dir_d5a80f7bf7b0532b9943a9f6de42befc [shape=box label="Launcher" URL="dir_d5a80f7bf7b0532b9943a9f6de42befc.html"];
   dir_a70188fb1c4d20845017b4842b7049b7->dir_1f3a28586caa829ed57e3fa0b0b05885 [headlabel="3", labeldistance=1.5 headhref="dir_000002_000003.html"];
-  dir_a70188fb1c4d20845017b4842b7049b7->dir_0850f1569e1404a71d6f767bc94671d0 [headlabel="26", labeldistance=1.5 headhref="dir_000002_000007.html"];
+  dir_a70188fb1c4d20845017b4842b7049b7->dir_0850f1569e1404a71d6f767bc94671d0 [headlabel="27", labeldistance=1.5 headhref="dir_000002_000007.html"];
   dir_a70188fb1c4d20845017b4842b7049b7->dir_b842639159e5a25bae7c135b5acfa408 [headlabel="5", labeldistance=1.5 headhref="dir_000002_000004.html"];
   dir_a70188fb1c4d20845017b4842b7049b7->dir_d5a80f7bf7b0532b9943a9f6de42befc [headlabel="1", labeldistance=1.5 headhref="dir_000002_000005.html"];
   dir_1f3a28586caa829ed57e3fa0b0b05885->dir_0850f1569e1404a71d6f767bc94671d0 [headlabel="14", labeldistance=1.5 headhref="dir_000003_000007.html"];

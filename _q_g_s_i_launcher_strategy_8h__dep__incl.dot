@@ -16,7 +16,5 @@ digraph "F:/Projects/Git/QGettingStarted/QGettingStarted/Launcher/QGSILauncherSt
   Node44 -> Node42 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node44 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node45 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/QGettingStarted.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_getting_started_8h.html"];
-  Node45 -> Node46 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node46 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html"];
   Node39 -> Node45 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

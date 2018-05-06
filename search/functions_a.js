@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['power',['POWER',['../namespace_cpu_architecture.html#af08284c5cac96a2fbdb8f3808f54baf0',1,'CpuArchitecture']]],
-  ['power64',['POWER64',['../namespace_cpu_architecture.html#a0bcbffee69ca773f3fb3496d8e88d3fb',1,'CpuArchitecture']]],
+  ['power',['POWER',['../namespace_q_g_s_cpu_architecture.html#ab7ae5fe6562d02c5ad78cdd9228eefed',1,'QGSCpuArchitecture']]],
+  ['power64',['POWER64',['../namespace_q_g_s_cpu_architecture.html#a5a299ea65a6b5c260c0022ff9dada28f',1,'QGSCpuArchitecture']]],
   ['prasearguments',['praseArguments',['../class_q_g_s_general_game_version_prase_strategy.html#afaba9ca551dbc6b89ef152bdc194d87d',1,'QGSGeneralGameVersionPraseStrategy']]],
   ['praseassetindex',['praseAssetIndex',['../class_q_g_s_general_game_version_prase_strategy.html#ab2a6105f5d1f4423dfd68e343632c8c3',1,'QGSGeneralGameVersionPraseStrategy']]],
   ['praseassets',['praseAssets',['../class_q_g_s_general_game_version_prase_strategy.html#a3248b9bc00727b8c44727333cfd32bc2',1,'QGSGeneralGameVersionPraseStrategy']]],

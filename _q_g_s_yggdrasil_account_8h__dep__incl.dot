@@ -11,7 +11,5 @@ digraph "F:/Projects/Git/QGettingStarted/QGettingStarted/LaunchOptions/QGSYggdra
   Node17 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/LaunchOptions/QGSYggdrasilAccount\lFactory.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_yggdrasil_account_factory_8cpp.html"];
   Node16 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node18 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/QGettingStarted.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_getting_started_8h.html"];
-  Node18 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node19 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$main_8cpp.html"];
   Node14 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

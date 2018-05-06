@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="Logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">QGettingStarted-Document
-   &#160;<span id="projectnumber">0.1.0</span>
+   &#160;<span id="projectnumber">0.2.0</span>
    </div>
    <div id="projectbrief">Minecraft launcher core QGettingStarted document.</div>
   </td>
@@ -145,9 +145,9 @@ $(function() {
 : <a class="el" href="class_q_g_s_network_access_manager.html#a37dea88a90d6de13f5d6a683e25a37dd">QGSNetworkAccessManager</a>
 </li>
 <li>generateLaunchCommand()
-: <a class="el" href="class_q_g_s_general_launcher_strategy.html#a224aef3dbad0412c02f2952644d00260">QGSGeneralLauncherStrategy</a>
-, <a class="el" href="class_q_g_s_i_launcher_strategy.html#ab09ca6f8e4bbe0a2d6bdb6848c18638b">QGSILauncherStrategy</a>
-, <a class="el" href="class_q_g_s_launcher.html#a56b1aaf3040498f81a00221cdddb75c0">QGSLauncher</a>
+: <a class="el" href="class_q_g_s_general_launcher_strategy.html#a50849c7c46121422d3b2cce440f105f6">QGSGeneralLauncherStrategy</a>
+, <a class="el" href="class_q_g_s_i_launcher_strategy.html#a340e19b943c0cb9bee1673fe24f039b3">QGSILauncherStrategy</a>
+, <a class="el" href="class_q_g_s_launcher.html#a94c0c6c02371bce8062fe3da4fc3455d">QGSLauncher</a>
 </li>
 <li>generateLibrariesDirectory()
 : <a class="el" href="class_q_g_s_game_directory.html#a765b55b6e1d5359d2290c801a815efee">QGSGameDirectory</a>
@@ -231,7 +231,7 @@ $(function() {
 : <a class="el" href="class_q_g_s_rules_1_1_q_g_s_rule.html#ab0965dd8646414ed2f0a1ff588035512">QGSRules::QGSRule</a>
 </li>
 <li>getActiveThreadCount()
-: <a class="el" href="class_q_g_s_thread_pool.html#a34ac59626f455914c55b46275de043b7">QGSThreadPool</a>
+: <a class="el" href="class_q_g_s_thread_pool_manager.html#a5faa9267cd02f7919c104c4bdc39d315">QGSThreadPoolManager</a>
 </li>
 <li>getAddress()
 : <a class="el" href="class_q_g_s_server_info.html#a65975875c5c2f71d9eab41c50d42d0b5">QGSServerInfo</a>
@@ -249,7 +249,7 @@ $(function() {
 : <a class="el" href="class_q_g_s_game_version.html#a152ee1e41ab25d1b0f56ef9b12119d62">QGSGameVersion</a>
 </li>
 <li>getAssetObject()
-: <a class="el" href="class_q_g_s_asset_index_info.html#ab8614a5ea67c6e88c6a314343b64cda7">QGSAssetIndexInfo</a>
+: <a class="el" href="class_q_g_s_asset_index_info.html#aafc6bb55167a130df25ebc42d588fb3a">QGSAssetIndexInfo</a>
 </li>
 <li>getAssetObjectMap()
 : <a class="el" href="class_q_g_s_asset_index_info.html#a554c0c052b38792342b8286dc47d1108">QGSAssetIndexInfo</a>
@@ -339,7 +339,7 @@ $(function() {
 : <a class="el" href="class_q_g_s_extract.html#a7521d8e909d10fb18385ded0ad5ecd04">QGSExtract</a>
 </li>
 <li>getExpiryTimeout()
-: <a class="el" href="class_q_g_s_thread_pool.html#a677b3c3d018b1967395236c7596fb547">QGSThreadPool</a>
+: <a class="el" href="class_q_g_s_thread_pool_manager.html#abd33c9bf9f7ded0af84b902e87743b07">QGSThreadPoolManager</a>
 </li>
 <li>getExtract()
 : <a class="el" href="class_q_g_s_library.html#ac3880d78d76820c6da0668fb711a3097">QGSLibrary</a>
@@ -377,7 +377,6 @@ $(function() {
 </li>
 <li>getGlobalInstance()
 : <a class="el" href="class_q_g_s_network_access_manager.html#a66677bb36e868dbbdd987ab43c096d6e">QGSNetworkAccessManager</a>
-, <a class="el" href="class_q_g_s_thread_pool.html#ae53cca42797192148ca02d0628037744">QGSThreadPool</a>
 </li>
 <li>getHash()
 : <a class="el" href="class_q_g_s_asset_object.html#adc28463d615c23fcfc8e89e454675472">QGSAssetObject</a>
@@ -450,6 +449,9 @@ $(function() {
 <li>getLiteLoaderVersionArtefactMetaMap()
 : <a class="el" href="class_q_g_s_lite_loader_version_info.html#a0e3dcb4945cc19b2e26a0d2df555444b">QGSLiteLoaderVersionInfo</a>
 </li>
+<li>getLiteLoaderVersionInfo()
+: <a class="el" href="class_q_g_s_lite_loader_version_info_list.html#a7bc671b5debfd5d67d5f3c5a5379e84b">QGSLiteLoaderVersionInfoList</a>
+</li>
 <li>getLiteLoaderVersionReposity()
 : <a class="el" href="class_q_g_s_lite_loader_version_info.html#a441a688a99461d3435e8ff902f1a6b4c">QGSLiteLoaderVersionInfo</a>
 </li>
@@ -475,7 +477,7 @@ $(function() {
 : <a class="el" href="class_q_g_s_launch_options.html#a43d15874a6b37e3dfa58749fce62ae48">QGSLaunchOptions</a>
 </li>
 <li>getMaxThreadCount()
-: <a class="el" href="class_q_g_s_thread_pool.html#a259f68bcb6e4ae93130dbe2c290203af">QGSThreadPool</a>
+: <a class="el" href="class_q_g_s_thread_pool_manager.html#aee4dca5aaa8390c2b06eaa45c5913c2a">QGSThreadPoolManager</a>
 </li>
 <li>getMcpJar()
 : <a class="el" href="class_q_g_s_lite_loader_version_meta.html#a911e828dc78b59e178e6a692497ba960">QGSLiteLoaderVersionMeta</a>
@@ -500,7 +502,7 @@ $(function() {
 : <a class="el" href="class_q_g_s_launch_options.html#a51a9cf1727a4deab9b4497bd62815521">QGSLaunchOptions</a>
 </li>
 <li>getMinThreadCount()
-: <a class="el" href="class_q_g_s_thread_pool.html#a68b150011ba298c5b776375f6cf171ff">QGSThreadPool</a>
+: <a class="el" href="class_q_g_s_thread_pool_manager.html#aa93874bb6f52902570725442f5e52ca2">QGSThreadPoolManager</a>
 </li>
 <li>getModified()
 : <a class="el" href="class_q_g_s_forge_version_info.html#af21c0b1f99c185da8b01910e87b1deda">QGSForgeVersionInfo</a>
@@ -517,6 +519,9 @@ $(function() {
 </li>
 <li>getNetworkReply()
 : <a class="el" href="class_q_g_s_downloader.html#a5aee4d36e29f76d8304e6fc79afea207">QGSDownloader</a>
+</li>
+<li>getOptifineVersionInfo()
+: <a class="el" href="class_q_g_s_optifine_version_info_list.html#ab25cb10bdb4f1d90940691bc6511fa64">QGSOptifineVersionInfoList</a>
 </li>
 <li>getOs()
 : <a class="el" href="class_q_g_s_rules_1_1_q_g_s_rule.html#a475d20952aae6d30bc7e6d59f20964fc">QGSRules::QGSRule</a>
@@ -598,10 +603,10 @@ $(function() {
 , <a class="el" href="class_q_g_s_library_builder.html#aca3f3dc225dd0a69500af0d685e51ed9">QGSLibraryBuilder</a>
 </li>
 <li>getThreadListSize()
-: <a class="el" href="class_q_g_s_thread_pool.html#a5e1057a4fc10abceea8e75de01ce8683">QGSThreadPool</a>
+: <a class="el" href="class_q_g_s_thread_pool_manager.html#aaa08f28b9a8737b9cbc14aac2451787d">QGSThreadPoolManager</a>
 </li>
-<li>getThreadPool()
-: <a class="el" href="class_q_g_s_i_builder.html#acbd6b48827bfde420151366b4e74be5c">QGSIBuilder</a>
+<li>getThreadPoolInstance()
+: <a class="el" href="class_q_g_s_thread_pool_manager.html#afbf3f77f34a591a831aa2f8d81abf14e">QGSThreadPoolManager</a>
 </li>
 <li>getTime()
 : <a class="el" href="class_q_g_s_game_version.html#a75295a6b6d7b8d28bd048e18924c56ad">QGSGameVersion</a>
@@ -640,13 +645,13 @@ $(function() {
 </li>
 <li>getVersion()
 : <a class="el" href="class_q_g_s_forge_version_info.html#ae8c0d633435dec72084006332b0bf68b">QGSForgeVersionInfo</a>
-, <a class="el" href="class_q_g_s_game_directory.html#a5bc0793dc5f9475e80c68842f30b24f9">QGSGameDirectory</a>
+, <a class="el" href="class_q_g_s_game_directory.html#a070fd0a7126b2bd5e9b58ed447c53b67">QGSGameDirectory</a>
 , <a class="el" href="class_q_g_s_library.html#a2f6629e0845ca92af5f7a88353b6d1f3">QGSLibrary</a>
 , <a class="el" href="class_q_g_s_lite_loader_version_meta.html#aee21b578b6d3163a4c03bf952a274755">QGSLiteLoaderVersionMeta</a>
 </li>
 <li>getVersionInfo()
-: <a class="el" href="class_q_g_s_forge_version_info_list.html#aa55cd3a0e70ff3b5669bb58747b86af8">QGSForgeVersionInfoList</a>
-, <a class="el" href="class_q_g_s_game_version_info_list.html#a3ef43c376d76d6ff8ee921d7ced345bb">QGSGameVersionInfoList</a>
+: <a class="el" href="class_q_g_s_forge_version_info_list.html#a2e13051ebf4497335b0624fbec63a4c9">QGSForgeVersionInfoList</a>
+, <a class="el" href="class_q_g_s_game_version_info_list.html#af1ace791785808cdc3aabd9347c11f6c">QGSGameVersionInfoList</a>
 , <a class="el" href="class_q_g_s_lite_loader_version_info_list.html#aaed1de24fed01d1c52f9e0d5179e9467">QGSLiteLoaderVersionInfoList</a>
 </li>
 <li>getVersionInfoList()

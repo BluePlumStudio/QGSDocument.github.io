@@ -1,4 +1,22 @@
 var searchData=
 [
-  ['x86_5f64',['X86_64',['../namespace_cpu_architecture.html#a9c44b0608ff36a37484e1f77422c01ab',1,'CpuArchitecture']]]
+  ['win32_5fbuild_5fiowin',['win32_build_iowin',['../iowin32_8c.html#abf534fde313c480b419b655e402e4b5b',1,'iowin32.c']]],
+  ['win32_5fclose_5ffile_5ffunc',['win32_close_file_func',['../iowin32_8c.html#a4abef8d35a00d0aea6e870824f65939f',1,'iowin32.c']]],
+  ['win32_5ferror_5ffile_5ffunc',['win32_error_file_func',['../iowin32_8c.html#a963ad2b88335fb421cdcf44f1ff934ab',1,'iowin32.c']]],
+  ['win32_5fopen64_5ffile_5ffunc',['win32_open64_file_func',['../iowin32_8c.html#aae2b762268d58c6af77b0c6a4ea962df',1,'iowin32.c']]],
+  ['win32_5fopen64_5ffile_5ffunca',['win32_open64_file_funcA',['../iowin32_8c.html#a172b460a9d63e7e260bb4ee4a6113651',1,'iowin32.c']]],
+  ['win32_5fopen64_5ffile_5ffuncw',['win32_open64_file_funcW',['../iowin32_8c.html#ae92ac7193d47c4608f2c815bb8ea2991',1,'iowin32.c']]],
+  ['win32_5fopen_5ffile_5ffunc',['win32_open_file_func',['../iowin32_8c.html#ac2360caf05f404cb355c9e62729e6a68',1,'iowin32.c']]],
+  ['win32_5fread_5ffile_5ffunc',['win32_read_file_func',['../iowin32_8c.html#ae530010792cfc3977a96c558b0f35927',1,'iowin32.c']]],
+  ['win32_5fseek64_5ffile_5ffunc',['win32_seek64_file_func',['../iowin32_8c.html#a8841aa134a890cdd2e2a45bc7a65e5a1',1,'iowin32.c']]],
+  ['win32_5fseek_5ffile_5ffunc',['win32_seek_file_func',['../iowin32_8c.html#a1725ad4eb6ab5e42ebae6e7c5287ba0f',1,'iowin32.c']]],
+  ['win32_5ftell64_5ffile_5ffunc',['win32_tell64_file_func',['../iowin32_8c.html#a803a598c8af0481b6399b98784124676',1,'iowin32.c']]],
+  ['win32_5ftell_5ffile_5ffunc',['win32_tell_file_func',['../iowin32_8c.html#a94fb49ed0d78c28ebeff67bab967cba8',1,'iowin32.c']]],
+  ['win32_5ftranslate_5fopen_5fmode',['win32_translate_open_mode',['../iowin32_8c.html#ae203bc768b977e5ef6f56b68e7856265',1,'iowin32.c']]],
+  ['win32_5fwrite_5ffile_5ffunc',['win32_write_file_func',['../iowin32_8c.html#a61fc03073d37f8d8cb849b3c038c4e65',1,'iowin32.c']]],
+  ['write_5fendofcentraldirectoryrecord',['Write_EndOfCentralDirectoryRecord',['../zip_8c.html#a26acf4764f6b8c19f0feb18ac5315438',1,'zip.c']]],
+  ['write_5fglobalcomment',['Write_GlobalComment',['../zip_8c.html#afe52628c128fa6397329f43e60420142',1,'zip.c']]],
+  ['write_5flocalfileheader',['Write_LocalFileHeader',['../zip_8c.html#a725809dec135ca745658c72a8578e505',1,'zip.c']]],
+  ['write_5fzip64endofcentraldirectorylocator',['Write_Zip64EndOfCentralDirectoryLocator',['../zip_8c.html#a9c440209ccea3275591d82ef1170caec',1,'zip.c']]],
+  ['write_5fzip64endofcentraldirectoryrecord',['Write_Zip64EndOfCentralDirectoryRecord',['../zip_8c.html#a3e803b9de3378b55508de949f9725480',1,'zip.c']]]
 ];

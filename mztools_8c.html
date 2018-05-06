@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.14"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>QGettingStarted-Document: F:/Projects/Git/QGettingStarted/QGettingStarted/Util/zlib/mztools.c 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="Logo.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">QGettingStarted-Document
+   &#160;<span id="projectnumber">0.2.0</span>
+   </div>
+   <div id="projectbrief">Minecraft launcher core QGettingStarted document.</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.14 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_92670852bab087901dd885087216d323.html">QGettingStarted</a></li><li class="navelem"><a class="el" href="dir_3952c08c86d2ef0fb0d3de6c9284875b.html">QGettingStarted</a></li><li class="navelem"><a class="el" href="dir_0850f1569e1404a71d6f767bc94671d0.html">Util</a></li><li class="navelem"><a class="el" href="dir_9c2606436d8a36b31998484b3bc43aff.html">zlib</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#define-members">宏定义</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">mztools.c 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
+<code>#include &lt;stdlib.h&gt;</code><br />
+<code>#include &lt;string.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="zlib_8h_source.html">zlib.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="unzip_8h_source.html">unzip.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+mztools.c 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="mztools_8c__incl.png" border="0" usemap="#_f_1_2_projects_2_git_2_q_getting_started_2_q_getting_started_2_util_2zlib_2mztools_8c" alt=""/></div>
+<!-- MAP 0 -->
+</div>
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:a5933c5f9b2f3e1fe13094198f8c2fd4c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mztools_8c.html#a5933c5f9b2f3e1fe13094198f8c2fd4c">READ_8</a>(adr)&#160;&#160;&#160;((unsigned char)*(adr))</td></tr>
+<tr class="separator:a5933c5f9b2f3e1fe13094198f8c2fd4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e352dcd7ba356ada024e87187b837ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mztools_8c.html#a7e352dcd7ba356ada024e87187b837ed">READ_16</a>(adr)&#160;&#160;&#160;( <a class="el" href="mztools_8c.html#a5933c5f9b2f3e1fe13094198f8c2fd4c">READ_8</a>(adr) | (<a class="el" href="mztools_8c.html#a5933c5f9b2f3e1fe13094198f8c2fd4c">READ_8</a>(adr+1) &lt;&lt; 8) )</td></tr>
+<tr class="separator:a7e352dcd7ba356ada024e87187b837ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bbb4339784122a493e95dd6eba94508"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mztools_8c.html#a2bbb4339784122a493e95dd6eba94508">READ_32</a>(adr)&#160;&#160;&#160;( <a class="el" href="mztools_8c.html#a7e352dcd7ba356ada024e87187b837ed">READ_16</a>(adr) | (<a class="el" href="mztools_8c.html#a7e352dcd7ba356ada024e87187b837ed">READ_16</a>((adr)+2) &lt;&lt; 16) )</td></tr>
+<tr class="separator:a2bbb4339784122a493e95dd6eba94508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae814f887399c9d71fbd5d78791916693"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mztools_8c.html#ae814f887399c9d71fbd5d78791916693">WRITE_8</a>(buff,  n)</td></tr>
+<tr class="separator:ae814f887399c9d71fbd5d78791916693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a9f04a546dff7e41b4b9625d71e3b72"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mztools_8c.html#a9a9f04a546dff7e41b4b9625d71e3b72">WRITE_16</a>(buff,  n)</td></tr>
+<tr class="separator:a9a9f04a546dff7e41b4b9625d71e3b72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac97e9469aa775dda942ffc8246d4a582"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mztools_8c.html#ac97e9469aa775dda942ffc8246d4a582">WRITE_32</a>(buff,  n)</td></tr>
+<tr class="separator:ac97e9469aa775dda942ffc8246d4a582"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:aa4d6ad280a8dc9fe1af55c1a32b81c7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> <a class="el" href="zconf_8h.html#a181415878f03b95a7094309d824a14b6">ZEXPORT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="mztools_8c.html#aa4d6ad280a8dc9fe1af55c1a32b81c7d">unzRepair</a> (char *file, <a class="el" href="zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> char *fileOut, <a class="el" href="zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> char *fileOutTmp, <a class="el" href="zconf_8h.html#a154b3b80120c903a368fec5f11f3007a">uLong</a> *nRecovered, <a class="el" href="zconf_8h.html#a154b3b80120c903a368fec5f11f3007a">uLong</a> *bytesRecovered) <a class="el" href="zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a></td></tr>
+<tr class="separator:aa4d6ad280a8dc9fe1af55c1a32b81c7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">宏定义说明</h2>
+<a id="a7e352dcd7ba356ada024e87187b837ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e352dcd7ba356ada024e87187b837ed">&#9670;&nbsp;</a></span>READ_16</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define READ_16</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">adr</td><td>)</td>
+          <td>&#160;&#160;&#160;( <a class="el" href="mztools_8c.html#a5933c5f9b2f3e1fe13094198f8c2fd4c">READ_8</a>(adr) | (<a class="el" href="mztools_8c.html#a5933c5f9b2f3e1fe13094198f8c2fd4c">READ_8</a>(adr+1) &lt;&lt; 8) )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2bbb4339784122a493e95dd6eba94508"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bbb4339784122a493e95dd6eba94508">&#9670;&nbsp;</a></span>READ_32</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define READ_32</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">adr</td><td>)</td>
+          <td>&#160;&#160;&#160;( <a class="el" href="mztools_8c.html#a7e352dcd7ba356ada024e87187b837ed">READ_16</a>(adr) | (<a class="el" href="mztools_8c.html#a7e352dcd7ba356ada024e87187b837ed">READ_16</a>((adr)+2) &lt;&lt; 16) )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5933c5f9b2f3e1fe13094198f8c2fd4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5933c5f9b2f3e1fe13094198f8c2fd4c">&#9670;&nbsp;</a></span>READ_8</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define READ_8</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">adr</td><td>)</td>
+          <td>&#160;&#160;&#160;((unsigned char)*(adr))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9a9f04a546dff7e41b4b9625d71e3b72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a9f04a546dff7e41b4b9625d71e3b72">&#9670;&nbsp;</a></span>WRITE_16</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WRITE_16</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">buff, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">n&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> { \</div><div class="line">  WRITE_8((<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*)(buff), n); \</div><div class="line">  WRITE_8(((<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*)(buff)) + 1, (n) &gt;&gt; 8); \</div><div class="line">} <span class="keywordflow">while</span>(0)</div></div><!-- fragment -->
+</div>
+</div>
+<a id="ac97e9469aa775dda942ffc8246d4a582"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac97e9469aa775dda942ffc8246d4a582">&#9670;&nbsp;</a></span>WRITE_32</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WRITE_32</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">buff, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">n&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> { \</div><div class="line">  WRITE_16((<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*)(buff), (n) &amp; 0xffff); \</div><div class="line">  WRITE_16((<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*)(buff) + 2, (n) &gt;&gt; 16); \</div><div class="line">} <span class="keywordflow">while</span>(0)</div></div><!-- fragment -->
+</div>
+</div>
+<a id="ae814f887399c9d71fbd5d78791916693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae814f887399c9d71fbd5d78791916693">&#9670;&nbsp;</a></span>WRITE_8</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define WRITE_8</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">buff, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">n&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>值:</b><div class="fragment"><div class="line"><span class="keywordflow">do</span> { \</div><div class="line">  *((<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*)(buff)) = (<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>) ((n) &amp; 0xff); \</div><div class="line">} <span class="keywordflow">while</span>(0)</div></div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">函数说明</h2>
+<a id="aa4d6ad280a8dc9fe1af55c1a32b81c7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4d6ad280a8dc9fe1af55c1a32b81c7d">&#9670;&nbsp;</a></span>unzRepair()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="ioapi_8h.html#a787fa3cf048117ba7123753c1e74fcd6">int</a> <a class="el" href="zconf_8h.html#a181415878f03b95a7094309d824a14b6">ZEXPORT</a> unzRepair </td>
+          <td>(</td>
+          <td class="paramtype">char*&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> char*&#160;</td>
+          <td class="paramname"><em>fileOut</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="zconf_8h.html#a2c212835823e3c54a8ab6d95c652660e">const</a> char*&#160;</td>
+          <td class="paramname"><em>fileOutTmp</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="zconf_8h.html#a154b3b80120c903a368fec5f11f3007a">uLong</a>*&#160;</td>
+          <td class="paramname"><em>nRecovered</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="zconf_8h.html#a154b3b80120c903a368fec5f11f3007a">uLong</a>*&#160;</td>
+          <td class="paramname"><em>bytesRecovered</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.14
+</small></address>
+</body>
+</html>

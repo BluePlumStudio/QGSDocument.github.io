@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['legacy',['Legacy',['../namespace_user_type.html#a938c1c88af5b7d51492731caac017683',1,'UserType']]],
-  ['linux',['LINUX',['../namespace_o_s.html#a3b9e01a079577c10fe2eae3ce2bac078',1,'OS']]],
-  ['liteloader',['LiteLoader',['../namespace_api_name.html#a3804590685a14efeed68a5de067c3838',1,'ApiName']]]
+  ['legacy',['Legacy',['../namespace_q_g_s_user_type.html#a15ccf5c5c48fa592e8d38e9aa3c271c3',1,'QGSUserType']]],
+  ['liteloader',['LiteLoader',['../namespace_q_g_s_game_api_name.html#ac6f7f8a85324a9ddfcc1dee0b6c46f88',1,'QGSGameApiName']]],
+  ['loadcentraldirectoryrecord',['LoadCentralDirectoryRecord',['../zip_8c.html#a44da2707a5a0031b9c263f9373918f29',1,'zip.c']]],
+  ['long',['long',['../ioapi_8h.html#a3c7b35ad9dab18b8310343c201f7b27e',1,'ioapi.h']]]
 ];

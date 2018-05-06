@@ -3,19 +3,5 @@ digraph "类继承关系图"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node86 [label="QException",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
-  Node86 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node0 [label="QGSException",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_exception.html"];
-  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node1 [label="QGSExceptionCompress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_exception_compress.html"];
-  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node2 [label="QGSExceptionInvalidValue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_exception_invalid_value.html"];
-  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="QGSExceptionIO",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_exception_i_o.html"];
-  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node4 [label="QGSExceptionJsonPraseError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_exception_json_prase_error.html"];
-  Node86 -> Node92 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node92 [label="QGSExceptionAuthentication",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_exception_authentication.html"];
-  Node86 -> Node93 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node93 [label="QGSExceptionVersionNotFound",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_exception_version_not_found.html"];
+  Node0 [label="QGSArguments::QGSArgument",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_arguments_1_1_q_g_s_argument.html"];
 }

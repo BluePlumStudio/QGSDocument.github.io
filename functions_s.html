@@ -23,7 +23,7 @@
   <td id="projectlogo"><img alt="Logo" src="Logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">QGettingStarted-Document
-   &#160;<span id="projectnumber">0.1.0</span>
+   &#160;<span id="projectnumber">0.2.0</span>
    </div>
    <div id="projectbrief">Minecraft launcher core QGettingStarted document.</div>
   </td>
@@ -67,6 +67,9 @@ $(function() {
 <div class="textblock">这里列出了所有类成员，并附带类的详细说明:</div>
 
 <h3><a id="index_s"></a>- s -</h3><ul>
+<li>sane
+: <a class="el" href="structinflate__state.html#a98b40fe23b7177bc8cd1d9d73edad593">inflate_state</a>
+</li>
 <li>serUrl()
 : <a class="el" href="class_q_g_s_library.html#a28d9c7df68ef5e305c737785de4e3fc6">QGSLibrary</a>
 </li>
@@ -125,7 +128,7 @@ $(function() {
 : <a class="el" href="class_q_g_s_auth_info.html#a6f3d74c5fe35f13cf83c282b78e13e38">QGSAuthInfo</a>
 </li>
 <li>setConnectionCount()
-: <a class="el" href="class_q_g_s_download_task_factory.html#a404eb0b130ade22e8db4a5b64e1882bd">QGSDownloadTaskFactory</a>
+: <a class="el" href="class_q_g_s_download_task_factory.html#a2112e2790ed9d1d5d5d481e1f2879e29">QGSDownloadTaskFactory</a>
 </li>
 <li>setCustomMinecraftArguments()
 : <a class="el" href="class_q_g_s_i_launch_options_builder.html#a3db1cb775f5004d68550c3f7e31f3cb1">QGSILaunchOptionsBuilder</a>
@@ -143,7 +146,7 @@ $(function() {
 : <a class="el" href="class_q_g_s_extract.html#a86ab3efd2c110b2951f455cee4d6edb1">QGSExtract</a>
 </li>
 <li>setExpiryTimeout()
-: <a class="el" href="class_q_g_s_thread_pool.html#afc4ae98d161f984d5f14f71ff278554e">QGSThreadPool</a>
+: <a class="el" href="class_q_g_s_thread_pool_manager.html#a968cb127704511157bb471cce3134cc0">QGSThreadPoolManager</a>
 </li>
 <li>setExtract()
 : <a class="el" href="class_q_g_s_library.html#a26581d7337d9ec2d81e6ed3c5845397d">QGSLibrary</a>
@@ -270,7 +273,7 @@ $(function() {
 , <a class="el" href="class_q_g_s_launch_options_builder.html#adc04a84e5ad29c2a815577a28d3a3479">QGSLaunchOptionsBuilder</a>
 </li>
 <li>setMaxThreadCount()
-: <a class="el" href="class_q_g_s_thread_pool.html#ac2e81d9d8b1244e22f87e4df5df87937">QGSThreadPool</a>
+: <a class="el" href="class_q_g_s_thread_pool_manager.html#ad80a9261da3e0b484f6260ad5490aec1">QGSThreadPoolManager</a>
 </li>
 <li>setMcpJar()
 : <a class="el" href="class_q_g_s_lite_loader_version_meta.html#a916bf909b4b76f0f55a6a90e05d00227">QGSLiteLoaderVersionMeta</a>
@@ -299,7 +302,7 @@ $(function() {
 , <a class="el" href="class_q_g_s_launch_options_builder.html#ae99865719a1a7df01ce052be1fbfea5a">QGSLaunchOptionsBuilder</a>
 </li>
 <li>setMinThreadCount()
-: <a class="el" href="class_q_g_s_thread_pool.html#a31d39ea357d36ff6d1976d4fcf153fcf">QGSThreadPool</a>
+: <a class="el" href="class_q_g_s_thread_pool_manager.html#aae3e70a9b7d2cba2b643686b5b68aee1">QGSThreadPoolManager</a>
 </li>
 <li>setModified()
 : <a class="el" href="class_q_g_s_forge_version_info.html#abdfd1ae514663563196333975867496e">QGSForgeVersionInfo</a>
@@ -445,6 +448,37 @@ $(function() {
 , <a class="el" href="class_q_g_s_lite_loader_version_info_list.html#aadc71fa7e8aeba54200a49da39e773eb">QGSLiteLoaderVersionInfoList</a>
 , <a class="el" href="class_q_g_s_optifine_version_info_list.html#a0ff7a163fac562dcf2b88cceb18a4ad0">QGSOptifineVersionInfoList</a>
 </li>
+<li>size_central_dir
+: <a class="el" href="structunz64__s.html#ac20ff22a6956f082e88204c72d4fdda1">unz64_s</a>
+</li>
+<li>size_centralExtra
+: <a class="el" href="structcurfile64__info.html#ab4c965d0fe696204fe23e4efd0cc2edb">curfile64_info</a>
+</li>
+<li>size_centralExtraFree
+: <a class="el" href="structcurfile64__info.html#a885ce2d7f41cbac1a2ef990643e62069">curfile64_info</a>
+</li>
+<li>size_centralheader
+: <a class="el" href="structcurfile64__info.html#a17de1df264e0e162f777f2ae7cef0d55">curfile64_info</a>
+</li>
+<li>size_comment
+: <a class="el" href="structunz__global__info64__s.html#ad9440fb3b019cfdac9ba8b8d83026ffc">unz_global_info64_s</a>
+, <a class="el" href="structunz__global__info__s.html#a10b58ab57b62301de813ecac0e974363">unz_global_info_s</a>
+</li>
+<li>size_file_comment
+: <a class="el" href="structunz__file__info64__s.html#aff23e3bb5b9a3a8a26aa4f4cfcca7c9c">unz_file_info64_s</a>
+, <a class="el" href="structunz__file__info__s.html#afa9feffb3b9c9c03e02599118d5f548e">unz_file_info_s</a>
+</li>
+<li>size_file_extra
+: <a class="el" href="structunz__file__info64__s.html#a12af3fa77dc4f7f28448d68703eb8c18">unz_file_info64_s</a>
+, <a class="el" href="structunz__file__info__s.html#a479402dcb3555c922e3ce87c8f967990">unz_file_info_s</a>
+</li>
+<li>size_filename
+: <a class="el" href="structunz__file__info64__s.html#ac09e3b96910b5f98ec73688116b6b3fd">unz_file_info64_s</a>
+, <a class="el" href="structunz__file__info__s.html#ae4f2f81a5301f7df9014838a56a496c6">unz_file_info_s</a>
+</li>
+<li>size_local_extrafield
+: <a class="el" href="structfile__in__zip64__read__info__s.html#aad537b7873db8b26b7ca75c5cba2b192">file_in_zip64_read_info_s</a>
+</li>
 <li>sslErrors()
 : <a class="el" href="class_q_g_s_downloader.html#a7de93269dac563bbded37f81bec00318">QGSDownloader</a>
 , <a class="el" href="class_q_g_s_download_task.html#a3851d55e8d53389d620bd93d4bc4e8ea">QGSDownloadTask</a>
@@ -456,6 +490,9 @@ $(function() {
 <li>started()
 : <a class="el" href="class_q_g_s_task.html#acda0849a1cceb9b118f44e0c53f92911">QGSTask</a>
 </li>
+<li>state
+: <a class="el" href="structz__stream__s.html#ac4a114217a1868dc6fbe7d1f5bda126b">z_stream_s</a>
+</li>
 <li>stop()
 : <a class="el" href="class_q_g_s_downloader.html#af5b0de5b091826b2b950537aefbe160f">QGSDownloader</a>
 , <a class="el" href="class_q_g_s_task.html#a34c4add1a5ab89a6054a7b00d376b2ef">QGSTask</a>
@@ -463,6 +500,17 @@ $(function() {
 <li>stoped()
 : <a class="el" href="class_q_g_s_downloader.html#ae8d2dc514cfbba8a039ef7703b2c1c4a">QGSDownloader</a>
 , <a class="el" href="class_q_g_s_task.html#ab87f33f5aab99ded7d460a014a862692">QGSTask</a>
+</li>
+<li>stream
+: <a class="el" href="structcurfile64__info.html#a765936b069e6e2be6d85589614af8583">curfile64_info</a>
+, <a class="el" href="structfile__in__zip64__read__info__s.html#a1826c0c38a41cfc6233e2e1e723d4cac">file_in_zip64_read_info_s</a>
+</li>
+<li>stream_initialised
+: <a class="el" href="structcurfile64__info.html#a43c3fdea776df57014ea61d952972b94">curfile64_info</a>
+, <a class="el" href="structfile__in__zip64__read__info__s.html#ae7351ca53dec98f5776930eee062498d">file_in_zip64_read_info_s</a>
+</li>
+<li>strm
+: <a class="el" href="structinflate__state.html#a67cc6a2f6ed1434b58e9308fbb9e7c2c">inflate_state</a>
 </li>
 </ul>
 </div><!-- contents -->

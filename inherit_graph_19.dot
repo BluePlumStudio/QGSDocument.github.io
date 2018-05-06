@@ -3,5 +3,5 @@ digraph "类继承关系图"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="QGSLaunchOptions",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_launch_options.html",tooltip="启动选项 "];
+  Node0 [label="QGSForgeVersionInfo",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_q_g_s_forge_version_info.html"];
 }

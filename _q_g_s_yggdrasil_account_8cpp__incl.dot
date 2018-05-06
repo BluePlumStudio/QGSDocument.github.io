@@ -58,6 +58,8 @@ digraph "F:/Projects/Git/QGettingStarted/QGettingStarted/LaunchOptions/QGSYggdra
   Node0 -> Node23 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node23 [label="../Util/QGSExceptionAuthentication.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_exception_authentication_8h.html"];
   Node23 -> Node24 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node24 [label="QException",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node24 [label="QGSException.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_exception_8h.html"];
+  Node24 -> Node25 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="QException",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
   Node23 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

@@ -29,17 +29,17 @@ digraph "F:/Projects/Git/QGettingStarted/QGettingStarted/GameVersion/QGSAssetInd
   Node0 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node12 [label="../Util/QGSExceptionVersion\lNotFound.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_exception_version_not_found_8h.html"];
   Node12 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node13 [label="QException",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
-  Node0 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node14 [label="../Util/QGSExceptionInvalid\lValue.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_exception_invalid_value_8h.html"];
-  Node14 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node15 [label="QGSException.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_exception_8h.html"];
+  Node13 [label="QGSException.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_exception_8h.html"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="QException",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="../Util/QGSExceptionInvalid\lValue.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_exception_invalid_value_8h.html"];
   Node15 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node16 [label="../Util/QGSExceptionIO.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_exception_i_o_8h.html"];
-  Node16 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 -> Node17 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node17 [label="../Util/QGSExceptionJson\lPraseError.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_exception_json_prase_error_8h.html"];
-  Node17 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node17 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

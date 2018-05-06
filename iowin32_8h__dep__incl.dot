@@ -1,0 +1,16 @@
+digraph "F:/Projects/Git/QGettingStarted/QGettingStarted/Util/zlib/iowin32.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node2 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Util/zlib/iowin32.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Util/QGSFileTools.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_file_tools_8h.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Launcher/QGSGeneralLauncherStrategy.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_general_launcher_strategy_8cpp.html"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/QGettingStarted.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_getting_started_8h.html"];
+  Node3 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Util/QGSFileTools.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$_q_g_s_file_tools_8cpp.html"];
+  Node2 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="F:/Projects/Git/QGetting\lStarted/QGettingStarted\l/Util/zlib/iowin32.c",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$iowin32_8c.html"];
+}

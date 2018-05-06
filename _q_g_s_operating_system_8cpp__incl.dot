@@ -13,4 +13,6 @@ digraph "F:/Projects/Git/QGettingStarted/QGettingStarted/Util/QGSOperatingSystem
   Node4 [label="QString",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
   Node3 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node5 [label="QObject",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="QDir",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
 }
